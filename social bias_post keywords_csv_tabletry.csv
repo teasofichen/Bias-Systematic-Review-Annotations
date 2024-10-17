@@ -1,0 +1,1622 @@
+﻿Key;Author;Title;Publication Year;"What kinds of system behaviors are described
+as “bias”? What are their potential sources (e.g.,
+general assumptions, task definition, data)?";In what ways are these system behaviors harmful, to whom are they harmful, and why?;What are the social values (obvious or not) that underpin this conceptualization of “bias?”
+9JC7QNM2;"Bauer, Lisa; Mehrabi, Ninareh; Goyal, Palash; Chang, Kai-Wei; Galstyan, Aram; Gupta, Rahul";BELIEVE: Belief-Enhanced Instruction Generation and Augmentation for Zero-Shot Bias Mitigation;2024;"""We consider an
+LLM biased if it disproportionately generates text
+that is perceived as negative, unfair, prejudiced, or
+stereotypical against protected groups (Dhamala
+et al., 2021)."" p. 239";"n.s. / very general ""Both the lack of supervision and the implicit
+associations in training data make these models susceptible to encoding various social biases against
+protected classes (Liang et al., 2021).""";n.s.
+WCTDMEH7;"Jin, Jiho; Kim, Jiseon; Lee, Nayeon; Yoo, Haneul; Oh, Alice; Lee, Hwaran";KoBBQ: Korean Bias Benchmark for Question Answering;2024;"""Bias in LLMs can be quantified through 1)
+embedding or probabilities of tokens or sentences and 2) distribution, classifier prediction,
+and lexicon of generated texts. Evaluation datasets
+for measuring bias leverage counterfactual inputs
+508
+(a fill-in-the-blank task with masked token and
+predicting most likely unmasked sentences) or
+prompts (sentence completion and question answering) (Rudinger et al., 2018; Nangia et al.,
+2020; Gehman et al., 2020; Parrish et al., 2022),
+inter alia."" p. 508";"""Recent studies have revealed inherent bias in
+LLMs across diverse categories, including gender, political ideologies, occupation, age, disability status, class, culture, gender identity, sexual
+orientation, race, ethnicity, nationality, and religion (Kotek et al., 2023; Motoki et al., 2023; Xue
+et al., 2023; Esiobu et al., 2023). Tao et al. (2023)
+observe LLMs’ cultural bias resembling Englishspeaking and Protestant European countries, and
+Nguyen et al. (2023) underscore the need for equitable and culturally aware AI and evaluation."" p. 508";"""Social bias refers to disparate treatment or outcomes between social groups that arise from
+historical and structural power asymmetries
+(Gallegos et al., 2023). These biases manifest in
+various forms, from toxic expressions towards
+certain social groups to stereotypical linguistic
+associations."" p. 508"
+M6VZNCV4;"Arnold, Stefan; Gröbner, Rene; Schreiner, Annika";Characterizing Stereotypical Bias from Privacy-preserving Pre-Training;2024;"""this study addresses the implications
+of text privatization on biased associations in LMs"" p.20 / ""Bias in machine learning is viewed as prior information that informs algorithmic learning (Mitchell,
+1980). When the prior information is predicated on
+stereotypes and prejudices, bias transcends this neutral definition and manifests in a disproportionate
+weight in favor of or against a social group. The origins of these problematic biases are often
+rooted in the raw data used to develop machine
+learning models (Caliskan et al., 2017). Implicit or
+explicit stereotypes based on characteristics such as
+21
+gender and race can cause the models to perpetuate
+and propagate these biases. This can significantly
+affect perception and decision making. The issue
+with stereotypical bias is particularly acute in the
+context of language models due to their extensive
+training on vast corpora that reflect biases present in
+human language. "" p. 21 / 22";"n.s. / very general ""This bias magnifies the potential
+to influence its tone (Dhamala et al., 2021) and
+content (Abid et al., 2021), resulting in negative
+effects on individuals and society at large."" p. 22";
+8VHZHQXW;"Lee, Seungyoon; Kim, Dong; Jung, Dahyun; Park, Chanjun; Lim, Heuiseok";Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4;2024;"""Given that LLMs
+are designed to generate responses that align with
+† Corresponding Author
+the patterns observed in their training data, the absence of rigorous ethical evaluations poses a notable risk of perpetuating content that could be
+detrimental, particularly to individuals belonging to
+socially marginalized groups (Ferrara, 2023; Zhuo
+et al., 2023b; Qi et al., 2023)."" p. 93";"""general """"In this study, our focus is on Korean, a language
+outside the mainstream cultural sphere, to scrutinize the inherent biases and potential harmful
+effects of LLMs in the context of societal issues
+and persona interactions."""" p. 93 / """"the absence of rigorous ethical evaluations poses a notable risk of perpetuating content that could be
+detrimental, particularly to individuals belonging to socially marginalized groups (Ferrara, 2023; Zhuo
+et al., 2023b; Qi et al., 2023)."""" p. 93""";
+HRB4JZKI;"Iskander, Shadi; Radinsky, Kira; Belinkov, Yonatan";Leveraging Prototypical Representations for Mitigating Social Bias without Demographic Information;2024;"""While
+these models possess remarkable capabilities, biases within the data can lead to unfair outcomes.
+Mitigating these biases is crucial, but it becomes
+particularly challenging when acquiring or accessing sensitive attribute labels is costly or unfeasible.
+Studies showed that language models have the
+ability to capture demographic information about
+the writer, including race or gender, within their
+representations (Caliskan et al., 2017; Zhao et al.,
+2018). However, this capability can introduce unintended biases, leading to discriminatory outputs
+(De-Arteaga et al., 2019)."" p. 379";" general ""this capability can introduce unintended biases, leading to discriminatory outputs
+(De-Arteaga et al., 2019)."" p. 379";n.s.
+73TH4WCP;"Liu, Yanchen; Gautam, Srishti; Ma, Jiaqi; Lakkaraju, Himabindu";Confronting LLMs with Traditional ML: Rethinking the Fairness of Large Language Models in Tabular Classifications;2024;"""These biases are
+a result of the models being trained on text generated by humans that presumably includes many
+examples of humans exhibiting harmful stereotypes
+and discrimination and reflects the biases and inequalities present in society (Bolukbasi et al., 2016;
+Zhao et al., 2017), which can lead to the perpetuation of discrimination and stereotype (Abid et al.,
+2021a; Bender et al., 2021)."" p. 3603";"general ""LMs, pre-trained on vast natural language
+datasets, are particularly susceptible to inheriting
+these social biases and have been shown to exhibit
+biases related to gender (Lucy and Bamman, 2021),
+religion (Abid et al., 2021b) and language variants (Ziems et al., 2023; Liu et al., 2023a)"" p. 3604";n.s.
+F93JHWJR;"Shi, Enze; Ding, Lei; Kong, Linglong; Jiang, Bei";Debiasing with Sufficient Projection: A General Theoretical Framework for Vector Representations;2024;"""The bias and fairness issues in NLP models are
+primarily caused by the unbalanced and stereotypical nature of the training corpora. Liang et al.
+(2020) described this as unbalanced model behavior in relation to certain socially sensitive topics
+such as gender, race, and religion."" p. 5960";"""However, as vector representations have been
+applied in a wide range of real-life scenarios, researchers have discovered that stereotypical biases
+and spurious correlations can be transferred from
+*Corresponding author
+human-generated corpora to vector representations
+and models (Bolukbasi et al., 2016; Caliskan et al.,
+2017; Vig et al., 2020). This has the potential to produce biased and unfair outcomes in various downstream tasks (Kurita et al., 2019) and can even lead
+to serious social problems. For instance, in the
+word analogy task presented in (Bolukbasi et al.,
+2016), it was found that the vector representation
+for −→she was closer to −−−→ nurse than the representation for −→he was to
+−−−→ doctor. De-Arteaga et al. (2019)
+found a performance gap between different genders
+in text classification tasksp. 5960";n.s.
+VXGVLMI3;"Chisca, Andrei-Victor; Rad, Andrei-Cristian; Lemnaru, Camelia";Prompting Fairness: Learning Prompts for Debiasing Large Language Models;2024;"""However, besides being computationally expensive, their performance comes at an additional cost, as they tend to pick up social biases
+from the vast data required for their pretraining. Consequently, these models can exhibit representational harms, such as disparate system performance, exclusion or stereotyping, or allocation
+harms, such as discrimination and unequal allocation of resources (Gallegos et al., 2023). "" p. 52 ";n.s.;n.s.
+GNHXKPHU;"Kim, Michelle YoungJin; Kim, Junghwan; Johnson, Kristen";ABLE: Agency-BeLiefs Embedding to Address Stereotypical Bias through Awareness Instead of Obliviousness;2024;"""In response to this fundamental question, our
+paper introduces the Agency-BeLiefs Embedding
+(ABLE) model, a novel approach designed to proactively incorporate stereotypical biases into the embedding space. By leveraging insights from social psychological theories (Koch et al., 2016), our
+model learns to predict these biases in the form
+of agency and belief scores, endowing the model
+with a profound awareness of bias (§3.1). Additionally, we employ contrastive learning loss to ensure
+the consistent representation of each stereotyped
+group by clustering texts containing the same group
+(§3.2).""  p. 44";"""Given
+the widespread deployment of these models across
+diverse domains, the escalating potential for risks
+and harms stemming from these biases demands
+our immediate attention."" p. 43 / ";"chapter on social psychological theories ""2.1. Social Psychological Theories
+Stereotyping is a cognitive process characterized
+by the tendency to generalize specific attributes to
+entire social groups. The manifestation of these
+stereotypical biases in society leads to adverse
+consequences, including the marginalization of certain groups from an equitable place in society, the
+exacerbation of social inequalities in resource allocation, and the psychological impact on individuals
+due to the awareness and internalization of these
+biases (Timmer, 2011). (...)"" p. 44 / 45 "
+BHP4BTJS;"Zhao, Yachao; Wang, Bo; Wang, Yan; Zhao, Dongming; Jin, Xiaojia; Zhang, Jijun; He, Ruifang; Hou, Yuexian";A Comparative Study of Explicit and Implicit Gender Biases in Large Language Models via Self-evaluation;2024;"""Since language inherently expresses propositions,
+a comparative study of explicit and implicit biases
+grounded in linguistics and LLMs is feasible"" p. 186";"""For instance, while humans explicitly self-report
+gender equality, implicit measures reveal negative
+attitudes of women (Moss-Racusin et al., 2012).
+This inconsistency may propagate societal issues
+like inequality and fragmentation (Axt et al., 2014).
+Notably, propositional representation theories posit
+that both explicit and implicit bias can be evaluated
+based on propositions (De Houwer et al., 2021)."" p. 186";"""Social bias is defined as a tendency or preference
+toward a particular social target (Garimella et al.,
+2021). Social psychology indicates that social
+bias encompasses both explicit and implicit forms
+(Greenwald and Banaji, 1995). Explicit bias refers
+to individuals’ bias self-recognized and reported by
+themselves. Implicit bias refers to bias that individuals do not self-recognize. Comparative studies between explicit and implicit biases are prevalent in social psychology (Greenwald et al., 1998; Son Hing
+et al., 2008). A significant observation is that individuals’ implicit biases can be inconsistent with
+their self-reported explicit biases towards the sensitive social targets, such as gender(Moss-Racusin
+et al., 2012) and race(Dovidio and Gaertner, 2004)."" p. 186
+"
+VGFK5DDW;"Kiehne, Niklas; Ljapunov, Alexander; Bätje, Marc; Balke, Wolf-Tilo";Analyzing Effects of Learning Downstream Tasks on Moral Bias in Large Language Models;2024;"""This behavior is particularly problematic for the
+field of ethical AI (for an overview, see Awad et al.,
+2022), since carefully aligned expressions of ethical rules and norms in the foundational model may
+be severely affected by later fine-tuning."" p. 904 / "". Zhao et al. (2017) show
+that pre-trained language models (PLM) amplify
+gender biases when fine-tuned on appropriately
+biased datasets. But, although our results also
+partially exhibit this phenomenon, we show that it
+occurs only in one specific setting: Biases are consistently amplified only when the downstream task
+is similarly biased as the pre-trained model."" p. 905";"""Controlling such moral bias in LMs is of paramount importance as their outputs can significantly influence
+opinions and perpetuate specific social norms,
+thereby influencing societal progress (Zhao et al.,
+2017; Hendrycks et al., 2021b; Emelin et al., 2021;
+Feng et al., 2023). "" p. 904 / ""Previous research has uncovered a multitude of different kinds of bias, ranging from broader concepts such as algorithmic fairness (Hardt et al., 2016; Zemel et al., 2013) to
+more fine-grained notions specific to few sensitive
+attributes, e.g. gender, age, or race (Sun et al.,
+2019; Field et al., 2021)."" p. 905";n.s.
+RWKP96IZ;"Ibaraki, Katsumi; Wu, Winston; Wang, Lu; Mihalcea, Rada";Analyzing Occupational Distribution Representation in Japanese Language Models;2024;"""These biases are in part a result of the data that these models are trained on
+(Hovy and Prabhumoye, 2021; Gururangan et al.,
+2022). While much of the NLP community has focused on removing the association between occupation and gender (Blodgett et al., 2020), this idealized approach may not reflect real-world gender
+disparities (Touileb et al., 2022)."" p. 959";"""In this paper, we highlight the need for researchers to take these biases into account when
+working with Japanese language models, or more
+generally, LLMs. Additionally, we hope to assess
+how language-specific models reflect real-world
+distributions such as occupation. Though it is the
+13th most widely-spoken language in the world,
+Japanese is relatively understudied in the NLP
+community. Only very recently have there been
+efforts to train and fine-tune LLMs for Japanese
+(Itoh and Shinnou, 2021; Yamauchi et al., 2022;
+Miyazaki et al., 2022; Ri et al., 2022).
+We investigate the following research questions,
+focusing specifically on Japanese: How are gender and occupation represented in pre-trained language models? How are these distributions correlated with real-world statistics? How do models
+associate Japanese names with gender and occupation?"" p. 959";"""Finally, considering the gender differences, Japan is
+ranked 125th out of 146 nations by the World Economic Forum’s global gender gap report.1
+If the
+Japanese models accurately represent Japan’s
+cultural and societal aspects, we can expect substantial differences compared with multilingual and
+English models."" p. 960 / "" In language models, this
+bias may occur if skewed gender representations
+are not taken into account in downstream applications. In our work, we focus on the systematic association between occupations and gender
+(male/female) in language models. Rather than assuming that models should treat genders equally,
+we investigate how these models reflect real-world
+occupation-gender distributions in Japan, in order
+to shed light on how models understand Japanese
+culture. We believe that observing trends in these
+distributions over time can provide a significant
+lens into societal changes and transformations in
+gender roles within the culture."" p. 960"
+WHGKTHYJ;"Huang, Yufei; Xiong, Deyi";CBBQ: A Chinese Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models;2024;included in chapter regarded related work (p. 2918/2919);"""In the context of AI fairness, the term “bias”
+refers to the harm that occurs when a system reinforces the subordinate status of certain groups
+along the lines of identity, and can be quantified
+through certain metrics (Crawford, 2017). In this
+study, our methodology follows this concept, focusing on stereotyping behavior and discrimination,
+which may harm marginalized or vulnerable individuals and groups, thereby affecting the safety and
+deployment of LLMs in real-world applications.""  p. 2917";n.s.
+3GQ7Z8FS;"Friðriksdóttir, Steinunn Rut; Einarsson, Hafsteinn";Gendered Grammar or Ingrained Bias? Exploring Gender Bias in Icelandic Language Models;2024;"""Many approaches developed for these purposes rely
+on pretrained language models, thus running the
+risk of incorporating any pre-learned biases these
+models may contain (Straw and Callison-Burch,
+2020)."" p. 2152";"""This asymmetrical stigma constitutes harms
+towards both men and women, increasing the risks
+of under-diagnosis or over-diagnosis respectively."" p. 2152";"""Mental health issues are heavily stigmatized, preventing many individuals from seeking appropriate care (Sickel et al., 2014). In addition, social
+psychology studies have shown that this stigma
+manifests differently for different genders: mental
+illness is more visibly associated with women, but
+tends to be more harshly derided in men (Chatmon,
+2020). This asymmetrical stigma constitutes harms
+towards both men and women, increasing the risks
+of under-diagnosis or over-diagnosis respectively."" p. 2152"
+E6CJIXTL;"Grigoreva, Veronika; Ivanova, Anastasiia; Alimova, Ilseyar; Artemova, Ekaterina";RuBia: A Russian Language Bias Detection Dataset;2024;"""Large language models (LLMs) are trained on primarily unfiltered text corpora which contain many
+instances of prejudice or bigotry being displayed.
+Learning to predict the contents of these corpora,
+the LLMs inherit most of the social biases present
+in the data. Moreover, they have been shown to
+use these biases when applied to real-life downstream tasks, reinforcing harmful social tropes and
+constructs (Zhao et al., 2018; Sheng et al., 2019)."" p. 14227";"""For instance, non-debiased LLM solving the task
+of coreference resolution tend to associate male
+pronouns with stereotypically masculine jobs (physician, scientist) and female pronouns with stereotypically feminine jobs (Bolukbasi et al., 2016)."" p. 14227  / ""Bias classification. Aside from a more general
+approach, broad bias types can be also divided
+into smaller, more distinct clusters. Doughman and
+Khreich (2022) propose a taxonomy for genderbiased language. It separates blatant sexism, misuse of generic pronouns, stereotyping bias, exclusionary language, and semantic bias (represented
+by old sayings) into five different categories. We
+believe that splitting overgeneralized bias types into
+multiple ways they can be expressed may lead to
+significant improvements. "" p. 14228";"""While bias has no uniform definition
+across the subject field, the word is mostly used
+to describe discriminatory or stereotyping beliefs
+adopted by a LLM as expressed in its output. Bias
+detection datasets most commonly focus on linguistic expressions of bias corresponding to well-known
+social issues, such as sexism, racism, and religious
+intolerance."" p. 14228"
+F8KQK5E3;"Emmery, Chris; Miotto, Marilù; Kramp, Sergey; Kleinberg, Bennett";SOBR: A Corpus for Stylometry, Obfuscation, and Bias on Reddit;2024;"""Representations of language have, throughout several iterations of larger scale computational techniques (e.g., static word embeddings, transformer
+embeddings), shown to encode and reproduce the
+human biases found in their training data (Manzini
+et al., 2019; Zhao et al., 2019; Basta et al., 2021; Elsafoury et al., 2022). "" p. 14973";n.s.;n.s.
+MVPRYA5N;"Fort, Karen; Alonso Alemany, Laura; Benotti, Luciana; Bezançon, Julien; Borg, Claudia; Borg, Marthese; Chen, Yongjian; Ducel, Fanny; Dupont, Yoann; Ivetta, Guido; Li, Zhijian; Mieskes, Margot; Naguib, Marco; Qian, Yuyan; Radaelli, Matteo; Schmeisser-Nieto, Wolfgang S.; Raimundo Schulz, Emma; Saci, Thiziri; Saidi, Sarah; Torroba Marchante, Javier; Xie, Shilin; Zanotto, Sergio E.; Névéol, Aurélie";Your Stereotypical Mileage May Vary: Practical Challenges of Evaluating Biases in Multiple Languages and Cultural Contexts;2024;n.s.;"""It was also noted that gender bias has attracted a lot of attention, compared to other types of
+bias (Ducel et al., 2023), thus highlighting the need
+for addressing a larger scope of biases. Through
+in-depth analysis of bias datasets, Blodgett et al.
+(2021) and Pikuliak et al. (2023) have identified different types of data quality issues as well as a lack
+of diversity: some bias categories such as gender
+and religion are well covered while other categories
+such as nationality are partially covered (with some
+over-represented nationalities and others that remain unaddressed) and other categories, such as
+political affiliation, are not covered at all."" p. 17764";"""Recent surveys of the literature on bias, fairness
+and social impact of Natural Language Processing (NLP) have identified a gap in the availability
+of tools and resources to study bias in languages
+other than English and social contexts outside the
+north of America (Blodgett et al., 2020; Talat et al.,
+2022)."" p. 17764"
+FRJBRL65;"Gautam, Sanjana; Srinath, Mukund";Blind Spots and Biases: Exploring the Role of Annotator Cognitive Biases in NLP;2024;"""Recent research has revealed that these language models can
+mimic human biases present in language, perpetuating prejudiced behaviour that dehumanizes certain
+socio-demographic groups by deeming them more
+negative or toxic (Havens et al., 2022; Blodgett
+et al., 2020).""  / "" Therefore, while humans-in-the-loop for model training
+may seem like an intuitive solution, it often introduces additional biases due to inherent cognitive
+biases in humans (Parmar et al., 2022). "" p. 82";"general “Unintended bias” is used to describe
+the different sources of bias that are introduced
+throughout an AI development life cycle (Lee and
+Floridi, 2021; Suresh and Guttag, 2021), focusing
+on not just the bias introduced, but also the harm it
+causes (Crawford, 2016)."" p. 83";n.s.
+3M6HQXW7;"Devinney, Hannah; Björklund, Jenny; Björklund, Henrik";We Don't Talk About That: Case Studies on Intersectional Analysis of Social Bias in Large Language Models;2024;"""We evaluate the presence and implications of
+representational harms in the output of LLMs. This
+is demonstrated for both English (using Llama) and
+Swedish (using GPT-SW3). After using the LLMs
+to generate stories, we analyze the resulting corpora
+for representational harms like stereotyping and
+denigration."" p. 33";"""Large language models have
+been shown to perform worse for gender-neutral
+pronouns in Danish, English, and Swedish than for
+gendered pronouns, measured both with respect to
+intrinsic measures such as perplexity and on several downstream tasks (Brandl et al., 2022). (...) There are also concerns about LLMs (re)producing other representational harms such as stereotyping or denigration (see, e.g., Felkner et al.
+(2023); Deas et al. (2023); Venkit et al. (2023))."" p.34";extensive chapter on bias p. 34 /35
+3PLT9KEH;"Urchs, Stefanie; Thurner, Veronika; Aßenmacher, Matthias; Heumann, Christian; Thiemichen, Stephanie";Detecting Gender Discrimination on Actor Level Using Linguistic Discourse Analysis;2024;"""However, LLMs are trained on existing data. If
+this input data is pervaded by stereotypes, biases
+and discrimination (as is often the case), the resulting model will reflect these discriminatory patterns."" p. 140 ";"""Bias against a particular gender entails discriminating against this gender. While bias contains all
+notions and beliefs towards a person/group (Mateo and Williams, 2020), (social) discrimination
+is a more intentional act: an offender treats someone or a group of people differently in a negative
+way, based on a specific feature of this person/-
+group (Reisigl, 2017). Textual discrimination is a
+special kind of (social) discrimination because the
+offender is not always apparent"" p. 141";"""What we read and see in media shapes our reality (Lippmann, 1929). If we are surrounded by
+bias and discrimination, we are likely to include
+these in our reality and act on them. That explains
+why media, notably text, plays an important role
+in the striving for equality for all genders. By detecting bias and especially discrimination against
+particular genders, it is possible to be wary of these
+texts and not distribute them. This is particularly
+important when choosing training data for natural
+language processing (NLP) tasks."" p. 140 "
+BV5JDCNM;"Stewart, Ian; Mihalcea, Rada";Whose wife is it anyway? Assessing bias against same-gender relationships in machine translation;2024;"""MT systems often generate
+masculine-gender words as the default for gendered
+languages (Savoldi et al., 2021), e.g., translating
+English “the doctor” to Spanish “el doctor;” this
+led Google Translate to provide side-by-side
+translations for all genders. (...) This error
+seems to reveal the model’s bias toward fluent
+translation at the cost of faithfulness (Feng et al.,
+2020), generating an output sentence with higher
+likelihood in the target language (“his wife”)
+but a possibly inaccurate meaning for the source
+language"" p. 365 / 366";"""(a) In this work, we consider consistently incorrect
+translation of gendered pronouns, in the context
+of relationships between nouns of the same
+grammatical gender, as a form of bias against
+same-gender relationships."" p. 365 / ""NLP systems
+that only recognize certain types of relationships
+(i.e. different-gender) impose a normative bias
+on their users. Incorrect machine translations
+of same-gender relationships may disenfranchise
+people for whom their relationship is especially
+Figure 1: Example translation error of same-gender
+sentence between English and Spanish (Google
+Translate; accessed 1 November 2023).
+important and should not be mischaracterized. Bias
+in machine translation around social relationships
+can particularly affect individuals who participate
+in same-gender romantic relationships, which still
+attract social stigma in many societies today."" p. 365";"""We consider incorrect translation of pronouns
+in relationship-based sentences as harmful because
+it reinforces the stereotype that relationships
+between people of different genders should be the
+norm. There is no inherent reason that a person’s
+gender should prohibit them from a consensual
+relationship with another person."" p. 365"
+BJSVL5A9;"Sadhu, Jayanta; Saha, Maneesha; Shahriyar, Rifat";An Empirical Study of Gendered Stereotypes in Emotional Attributes for Bangla in Multilingual Large Language Models;2024;"general "" Such deeply ingrained stereotypes risk being perpetuated by Large LanguageModels (LLMs)."" p. 384";"""In this work, we
+focus on stereotypical associations between masculine and feminine gender and emotional attributes
+in LLM responses. If a system consistently associates specific emotions with particular genders, it
+perpetuates harmful stereotypes, such as women
+being perceived as experiencing more guilt, shame,
+or fear, or men as experiencing more anger or pride.
+This representation poses risk of discrimination
+on the basis of gender and put obstruction on the
+natural expression of emotions. Our study aims
+to illuminate gender-emotion correlations in LLM
+responses for Bangla language"" p. 385";"""We define gendered emotional stereotypes as the generalization
+1
+https://github.com/csebuetnlp/BanglaEmotionBias
+of expected emotional responses based on a person’s gender in specific situations. Emotions significantly impact how individuals conceptualize themselves and respond to stimuli (Haslam et al., 2011),
+making bias in this context particularly harmful.
+Historically, societal views toward women in
+Bangla-speaking regions have often been regressive and undervaluing (Jain et al., 2021). Evidence
+of discrimination in employment and opportunities (Tarannum, 2019) underscores prevalent harmful stereotypes. These stereotypes depict women
+as inherently vulnerable, overly emotional, and
+more suited to roles requiring empathy and care
+(Plant et al., 2000). Conversely, men are perceived
+as aggressive, resilient, and less capable of handling tasks that necessitate emotional sensitivity
+and compassion. Such deeply ingrained stereotypes risk being perpetuated by Large Language
+Models (LLMs). Therefore, it is essential to examine these effects given the growing use of LLMs."" p. 384"
+5UIBDCDE;"Moslemi, Mehrnaz; Zouaq, Amal";TagDebias: Entity and Concept Tagging for Social Bias Mitigation in Pretrained Language Models;2024;"""Research has
+highlighted that these models often inherit substantial social biases present in their pre-training corpora, which may subsequently emerge in the outcomes of downstream tasks (May et al., 2019; Zhao
+et al., 2018b)""  p. 1553";n.s.;n.s.
+HDRUY98T;"Xie, Sean; Hassanpour, Saeed; Vosoughi, Soroush";Addressing Healthcare-related Racial and LGBTQ+ Biases in Pretrained Language Models;2024;"""the impressive performance of PLMs is marred by inherent social
+biases due to their training on extensive and varied datasets. "" p. 4451";"""These biases, encompassing racial,
+gender, and religious prejudices (Davidson et al.,
+2019; Vig et al., 2020; Abid et al., 2021), become
+∗Co-corresponding Authors.
+Figure 1: StereoSet-style examples that reflect
+healthcare-related racial and LGBTQ+ biases in PLMs.
+especially concerning in high-stakes domains like
+healthcare. In such settings, biased PLMs can lead
+to unfair and potentially harmful outcomes (Ghassemi et al., 2021; Chen et al., 2021a). Studies like
+(Zhang et al., 2020) and (Omiye et al., 2023) highlight the detrimental effects of these biases, such
+as biased clinical decisions and the perpetuation of
+harmful stereotypes."" p. 4451 / ""This paper aims to fill this
+gap by examining latent racial and LGBTQ+ biases in PLMs, particularly those manifesting as
+stereotypical associations with diseases, conditions,
+4451
+and assumptions based on race and sexual orientation. Drawing from medical literature, we identify
+prevalent stereotypes among both the general public and medical professionals, adapt existing bias
+benchmarks for this context."" p. 4451 /4452";"""Extensive research has demonstrated that implicit biases among healthcare professionals significantly influence their treatment
+decisions, leading to disparities across different patient demographics (Hall et al., 2015; Maina et al.,
+2018). For instance, Moskowitz et al. (2012) revealed a prevalent implicit association of African
+Americans with conditions like obesity and hypertension among physicians, adversely impacting patient care.  (...)"" p. 4452"
+WATE76B9;"Park, Kyungmin; Oh, Sihyun; Kim, Daehyun; Kim, Juae";Contrastive Learning as a Polarizer: Mitigating Gender Bias by Fair and Biased sentences;2024;very general;n.s.;n.s.
+N5FBFGYL;"Liu, Guangliang; Afshari, Milad; Zhang, Xitong; Xue, Zhiyu; Ghosh, Avrajit; Bashyal, Bidhan; Wang, Rongrong; Johnson, Kristen";Towards Understanding Task-agnostic Debiasing Through the Lenses of Intrinsic Bias and Forgetfulness;2024;"""Intrinsically, PLMs amplify the statistical
+bias in the pretraining corpus "" p. 1843";"""Social biases embedded in PLMs
+can drive PLM-based systems to generate stereotypical content with respect to underrepresented
+demographic groups, raising serious issues of social fairness (Elsafoury and Abercrombie, 2023).
+Therefore the process of debiasing PLMs to better align them with social values of fairness is a
+key procedure before deploying PLMs for public
+access (Sun et al., 2019).
+To illustrate the unintended behavior of social
+bias, a popular example is: The surgeon asked
+the nurse a question, he ...; The nurse asked the
+surgeon a question, she .... Given the occupation
+token, surgeon, in the context of “The surgeon
+asked the nurse a question”, PLMs are more likely
+to make a generation decision to assign the binary
+gender token he, instead of she, by referring to
+the occupational token. This indicates that PLMs
+predict surgeons as male with a higher probability
+than surgeons as female, presenting an example of
+gender bias (Bordia and Bowman, 2019; Lu et al.,
+2020). "" p. 1843";n.s.
+ND7ZATWZ;"Li, Yingji; Du, Mengnan; Song, Rui; Wang, Xin; Wang, Ying";Data-Centric Explainable Debiasing for Improving Fairness in Pre-trained Language Models;2024;"""However, these training datasets contain
+* Corresponding author
+human-like social biases and stereotypes (Zhao
+et al., 2019). "" p. 3773";"general ""PLMs can learn and amplify biases
+against certain demographic groups, leading to unfair decisions that harm vulnerable groups"" p. 3772";n.s.
+ASC7FCJ8;"Kamruzzaman, Mahammed; Shovon, Md.; Kim, Gene";Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models;2024;"""As LLMs are trained on data created by humans,
+we hypothesize that they are prone to similar biases to those identified in people."" p. 8941";"""In addition, we investigate dimensions of bias that have been largely
+overlooked: age, beauty, academic institution, and
+nationality. Although understudied, these dimensions of bias follow people as much as gender and
+ethnicity do."" p. 8941 honorable mention: chapter 2 motivating studies from social science";"""ocial scientists found that human biases extend
+beyond simple stereotypes and can lead to general associations of positive attributes to members
+holding (or perceived to hold) certain key characteristics. For example, Dion et al. (1972) found that
+people are more likely to infer a plethora of other
+desirable characteristics to people that are judged
+more attractive—a result that has been confirmed
+and elaborated upon for the present day by more
+recent studies (Commisso and Finkelstein, 2012;
+8940
+Peng et al., 2019; Maurer-Fazio and Lei, 2015; Weber et al., 2013). In this paper, we extend the evaluation of bias
+in LLMs in the following key ways: we investigate whether LLMs make general associations
+between stereotyped categories and unrelated positive, negative, and neutral attributes rather than
+specific stereotype inferences"" p. 8941"
+F9U3UXRI;"Spliethöver, Maximilian; Menon, Sai Nikhil; Wachsmuth, Henning";Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness;2024;"""A specific fairness issue arises when a bias detection model is predominantly trained and evaluated on standard language but applied to texts
+with dialect (Jurgens et al., 2017). Dialects appear in regional and social communities and introduce syntactic and lexical variations (Blodgett et al.,
+2016). As such, dialects may notably diverge from
+the source language, posing a challenge to models
+trained primarily on standard language (Belinkov
+ (a) Likely
+AAE
+ (b) Likely
+not AAE
+draymond kill me with all that shit he be talking to the
+refs please be quiet boy before you get us all in trouble
+you all make fucking terrible “music”
+not offensive not intentional not lewd
+no target group not ingroup
+offensive intentional not lewd
+no target group not ingroup
+Figure 1: Two texts from the corpus of Sap et al. (2020),
+showcasing some of the five social bias aspects tackled
+in this paper: Neither text is lewd, talks about some
+target group, or is from an ingroup member. Unlike
+(a), however, (b) is offensive and intentional. While (a)
+contains elements common in AAE, i.e., the habitual be
+and dropped copula (Ziems et al., 2022), (b) does not.
+and Bisk, 2018; Ebrahimi et al., 2018; Kantharuban
+et al., 2023). If not explicitly accounted for, the lack
+of dialect understanding may subsequently lead to
+unfair decisions towards dialect speakers (Ziems
+et al., 2022), originating in data and label imbalances, but also in selected dialect terms that may be
+considered offensive in non-dialect contexts"" p. 9294";"""For
+example, while the use of the N-word can be acceptable when used among African-American English
+(AAE) speakers, its use is considered inappropriate in Standard American English (SAE) (Rahman,
+2012; Widawski, 2015; Talat et al., 2018)."" p. 9294";n.s.
+DCT5S8U3;Parra, Iñigo;UnMASKed: Quantifying Gender Biases in Masked Language Models through Linguistically Informed Job Market Prompts;2024;"""These models owe
+their power to the extensive training on corpora
+of human-generated text, enabling them to mimic
+human-like linguistic capabilities with remarkable
+accuracy (Bahri et al., 2021). While the ability
+to capture and reproduce these patterns often results in beneficial outcomes, it is not without its
+caveats. An increasing amount of studies (Bordia and Bowman, 2019; Abid et al., 2021; Kaneko
+et al., 2022) have underscored the potential risks
+associated with language models, pointing out their
+role in inheriting the biases present in the training
+data, a reflection of human prejudices and societal
+norms"" p. 61 ";"""Gender bias poses ethical concerns, particularly
+when found in models deployed in sensitive domains, such as the job market, where fairness and
+impartiality are paramount (Kodiyan, 2019). "" p. 61";"""In the context of language models (LMs), bias
+refers to the systematic misrepresentation of facts
+or factual distortions that benefit certain groups,
+spreading and fixing stereotypes, or producing incorrect presuppositions built on learned patterns."" p. 61 / ""Gender bias poses ethical concerns, particularly
+when found in models deployed in sensitive domains, such as the job market, where fairness and
+impartiality are paramount (Kodiyan, 2019). "" p. 61"
+QXHSBVDB;"Jain, Prachi; Sathe, Ashutosh; Gumma, Varun; Ahuja, Kabir; Sitaram, Sunayana";MAFIA: Multi-Adapter Fused Inclusive Language Models;2024;""" Despite the extraordinary performance of these models on their respective tasks, several works have
+identified the harmful social biases picked up by
+these models as an artifact of their pretraining on
+†
+Equal Contribution
+‡Work done when the author was at Microsoft
+web-scale corpus consisting of unmoderated usergenerated content (Manzini et al., 2019; Webster
+et al., 2020; Nadeem et al., 2021, inter alia)."" p. 627";"""While most previous works focus on (binary)
+gender biases, other societal biases, such as race
+and religion, are less studied in the context of
+PLMs. Moreover, these biases are often intertwined with each other, creating complex and nuanced forms of discrimination. We define intersectional biases as the biases that arise from the
+combination of different attributes, such as gender, race, and religion"" p. 627";n.s.
+RNTCXXDF;"Shrawgi, Hari; Rath, Prasanjit; Singhal, Tushar; Dandapat, Sandipan";Uncovering Stereotypes in Large Language Models: A Task Complexity-based Approach;2024;general;general;n.s.
+427IRUBN;"Hua, Wenyue; Ge, Yingqiang; Xu, Shuyuan; Ji, Jianchao; Li, Zelong; Zhang, Yongfeng";UP5: Unbiased Foundation Model for Fairness-aware Recommendation;2024;"""""Fairness of Large Language Models. Fairness
+of language models is usually concerned with
+whether embeddings for attribute-related words
+such as gender-related words are associated with
+stereotypes (Ravfogel et al., 2020)."" p. 1901";"""For example, an elderly user may
+also want to watch younger generation movies to
+catch up with the times, and thus the user does not
+want to be discriminated on their age in terms of
+movie recommendation"" p. 1899 /  ""Recent studies
+have highlighted the potential of unfairness in the
+pre-training data of LLMs, which leads to the generation of harmful or offensive content, including
+discrimination against marginalized groups. Consequently, there has been an increased research focus on addressing the harmfulness issues of LLMs,
+with a particular emphasis on unfairness."" p. 1901";n.s.
+V8IVAJ7Q;"Gallegos, Isabel O.; Rossi, Ryan A.; Barrow, Joe; Tanjim, Md Mehrab; Kim, Sungchul; Dernoncourt, Franck; Yu, Tong; Zhang, Ruiyi; Ahmed, Nesreen K.";Bias and Fairness in Large Language Models: A Survey;2024;"""Typically trained on an enormous scale of uncurated Internet-based data, LLMs inherit
+stereotypes, misrepresentations, derogatory and exclusionary language, and other denigrating behaviors that disproportionately affect already-vulnerable and marginalized
+communities (Bender et al. 2021; Dodge et al. 2021; Sheng et al. 2021b)."" p. 1098";chapter 2.2.1 p. 1102;extensive, p. 1105 (several chapters on understanding of bias etc. 
+HSVWVUXB;Allam, Ahmed;BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization;2024;"""language tasks, they are not without their flaws. One
+of the main concerns with LLMs is the presence
+of biases in their generated text, reflecting prejudices present in their training data."" p. 71";"""These biases
+can be in several forms, including racial, gender,
+and religious biases."" p. 71 / ""Recent studies have highlighted the presence of
+biases in LLMs, and the potential impacts of these
+biases on society. Navigli et al. (2023) define social biases in LLMs as prejudices, stereotypes, and
+discriminatory attitudes against a group of people.
+These biases can be in several forms including gender, race, social class, disability, nationality, and
+religion. "" p. 72";n.s.
+MRW6IBPB;"Kumar, Abhishek; Yunusov, Sarfaroz; Emami, Ali";Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models;2024;general;"""Representative bias stems from an unconscious
+presumption that dominant characteristics within
+a person’s environment are universally normative,
+thus skewing what is considered ‘normal.’ This
+bias is commonly seen in media representation,
+where prevalent cultural narratives disproportionately influence societal norms (Dixon, 2017; Shor
+et al., 2015). Affinity bias is the unconscious preference for those who share similarities with oneself,
+such as cultural backgrounds, personal experiences,
+or gender identities. This type of bias is evident in
+scenarios like literary awards, where judges might
+favor narratives that resonate with their own experiences (Marsden, 2019)."" p. 375";"""Representative bias stems from an unconscious
+presumption that dominant characteristics within
+a person’s environment are universally normative,
+thus skewing what is considered ‘normal.’ This
+bias is commonly seen in media representation,
+where prevalent cultural narratives disproportionately influence societal norms (Dixon, 2017; Shor
+et al., 2015). Affinity bias is the unconscious preference for those who share similarities with oneself,
+such as cultural backgrounds, personal experiences,
+or gender identities. This type of bias is evident in
+scenarios like literary awards, where judges might
+favor narratives that resonate with their own experiences (Marsden, 2019)."" p. 375"
+ULPUU2JV;"Plaza-del-Arco, Flor; Curry, Amanda; Cercas Curry, Alba; Abercrombie, Gavin; Hovy, Dirk";Angry Men, Sad Women: Large Language Models Reflect Gendered Stereotypes in Emotion Attribution;2024;"""LLMs like LLaMA (Touvron et al., 2023) and
+GPT-4 (OpenAI, 2023) use pre-training methods
+known to encode societal biases and stereotypes
+(Nadeem et al., 2021; Nozza et al., 2021). While
+these issues has received much attention in machine translation (Hovy et al., 2020; Stanovsky
+et al., 2019) as well as other NLP tasks (e.g.,
+Bolukbasi et al., 2016; Rudinger et al., 2018, inter
+alia), there is a notable gap in gendered stereotypes research for emotion analysis (Mohammad
+et al., 2018; Klinger et al., 2018; Plaza-del-Arco
+et al., 2020). Yet emotion analysis is a high-priority
+aspect in the recent European Union AI Act (European Commission, 2023). For a comprehensive
+overview of emotion analysis in NLP, see Plazadel-Arco et al. (2024)."" p. 7683";"""Women have historically been characterized as
+emotional and displaying more sympathy than men
+(Plant et al., 2000; Shields, 2013). These stereotypes have material consequences: men have been
+seen as unsuitable for care-giving jobs (e.g., nursing) and women for jobs supposedly requiring emotional distance (e.g., finance or technology). These
+stereotypes are deeply embedded in popular culture
+and thus risk being propagated in Large Language
+Models (LLMs)."" p. 7683 / ""We find strong evidence of gendered stereotyping across the five LLMs, which strongly
+aligns with findings in psychology and gender
+studies: models overwhelmingly link SADNESS
+with women and ANGER with men."" p. 7883";"""How we talk about emotions signals cultural and
+societal gender stereotypes (Shields, 2013). Stereotypes can be neutral, positive, or negative generalizations about a specific social group. A gendered
+emotional stereotype is a generalization about how
+people feel based on their gender, e.g., “women are
+emotional” or “men are angry”. While stereotypes
+are an important heuristic to free cognitive capacity
+and transmit information as quickly as possible,
+“many of the stereotypes of historically powerless
+groups such as women, black people, or workingclass people variously involve an association with
+some attribute inversely related to competence or
+sincerity or both” (Fricker, 2007).(...)"" p. 7682 incl. philosophical background p. 7683"
+P4GIUGUC;"Davani, Aida Mostafazadeh; Atari, Mohammad; Kennedy, Brendan; Dehghani, Morteza";Hate Speech Classifiers Learn Normative Social Stereotypes;2023;"""Artificial Intelligence (AI) technologies are prone
+to acquiring cultural, social, and institutional biases from the real-world data on which they are
+trained (McCradden et al., 2020; Mehrabi et al.,
+2021; Obermeyer et al., 2019). AI models trained
+on biased datasets both reflect and amplify those
+biases (Crawford, 2017). "" p. 300";"""For example, the dominant practice in modern Natural Language Processing (NLP)—which is to train AI systems
+on large corpora of human-generated text data—
+leads to representational biases, such as preferring
+European American names over African American names (Caliskan et al., 2017), associating
+words with more negative sentiment with phrases
+referencing persons with disabilities (Hutchinson
+et al., 2020), making ethnic stereotypes by associating Hispanics with housekeepers and Asians
+with professors (Garg et al., 2018), and assigning men to computer programming and women
+to homemaking (Bolukbasi et al., 2016).
+Moreover, NLP models are particularly susceptible to amplifying biases when their task involves
+evaluating language generated by or describing a
+social group (Blodgett and O’Connor, 2017). (...)"" p. 300 ";" ""This unfair assessment negatively
+impacts marginalized groups’ representation in
+online platforms, which leads to disparate impacts
+on historically excluded groups (Feldman et al.,
+2015)."" p. 300 "
+PM66RAN7;"Vargas, Francielle; Carvalho, Isabelle; Hürriyetoğlu, Ali; Pardo, Thiago; Benevenuto, Fabrício";Socially Responsible Hate Speech Detection: Can Classifiers Reflect Social Stereotypes?;2023;"""We propose a new approach for assessing the
+potential of HS classifiers to reflect social
+stereotypes. Our approach consists of analyzing whether HS classifiers are able to classify tuples containing stereotypes and counterstereotypes in the same way. Otherwise, they
+are potentially biased."" p. 1188";"""For example, Table 1 shows that
+the hate speech classifier attributed unreal offensiveness to the first example only due to the expression “Gay Pride”, which represents a social
+identity2 group. We observe that in the second example, the expression “Gay Pride” was replaced by
+“Christmas”, and in the third example, they were
+removed. The second and third examples were
+classified as non-hate speech, and the first one was
+classified as hate speech. Furthermore, the hate
+speech classifier neglected the offensiveness of the
+fourth example only due to the term “Mexican”"" p. 1187";"""Social Stereotypes: Stereotypes are cognitive
+structures that contain the perceiver’s knowledge,
+beliefs, and expectations about human groups (Peffley et al., 1997). Stereotypes can trigger positive
+and negative social bias, which refers to a preference for or against persons or groups based on their
+social identities (Sahoo et al., 2022)."" p. 1189"
+9NBLTMD9;"Lassen, Ida Marie S.; Almasi, Mina; Enevoldsen, Kenneth; Kristensen-McLachlan, Ross Deans";Detecting intersectionality in NER models: A data-driven approach;2023;"""We focus on
+one specific downstream task, namely Named Entity Recognition (NER), and we focus only on the
+Danish language. We examine error disparities as a
+function of sensitive features (Borkan et al., 2019;
+Shah et al., 2020), where earlier work has shown
+differences across different demographic groups,
+namely gender and ethnicity (Enevoldsen et al.,
+2021; Kristensen-McLachlan et al., 2022).
+Existing work has highlighted how unintended
+bias in NLP systems leads to systematic differences
+in performance for different demographic groups
+(Borkan et al., 2019; Gaut et al., 2020; Zhao et al.,
+2018)."" p. 116";extensive section on bias in nlp p.117;""" The fundamental idea in intersectional
+feminism relates to how multiple dimensions of
+inequality result in complex, intersected inequality
+that cannot be accounted for through an isolated
+analysis of the single inequalities. For example,
+minority women might experience other types of
+discrimination than majority women and still others than those experienced by minority men"" p. 116/117"
+78H4LXMM;"Onorati, Dario; Ruzzetti, Elena Sofia; Venditti, Davide; Ranaldi, Leonardo; Zanzotto, Fabio Massimo";Measuring bias in Instruction-Following models with P-AT;2023;"""As IFLMs will play a crucial role in the future,
+there is an urgent need for shared resources to
+determine whether existing and new IFLMs are
+prone to produce biased, harmful language interactions. Indeed, word and sentence embedders have
+already tests to determine their bias factor, Word
+Embedding Association Test (WEAT) (Caliskan
+et al., 2017) and Sentence Encoder Association
+Test (SEAT) (May et al., 2019), respectively"" p. 8006";"general ""We consider a model to be stereotypebiased if it consistently prefers stereotypes over
+anti-stereotypes; in this scenario we say that the
+model exhibits stereotypical bias."" p. 8007";general
+WKZYAK7S;"Wan, Yixin; Zhao, Jieyu; Chadha, Aman; Peng, Nanyun; Chang, Kai-Wei";Are Personalized Stochastic Parrots More Dangerous? Evaluating Persona Biases in Dialogue Systems;2023;"""However, the breakthrough in this dimension also comes with fairness concerns: adopting
+different personas can dramatically alter the harmfulness level of model behavior. For instance, as
+illustrated in Table 1, ChatGPT exhibits alarming
+harmful responses with specific persona adoptions.
+This sensitivity of model behavior to different persona adoptions could magnify or even exacerbate
+societal biases (Sheng et al., 2021a; Deshpande
+et al., 2023), especially considering the direct interactions between dialogue models with millions
+of end users (Ram et al., 2017). Therefore, understanding the underlying biases of model personas is
+imminent and important to prevent harm and boost
+the trustworthiness of models."" p. 9677";extensive section of bias definition p. 9677 / 9678;extensive section of bias definition p. 9677 / 9678
+YBAHS3IC;"Köksal, Abdullatif; Yalcin, Omer; Akbiyik, Ahmet; Kilavuz, M.; Korhonen, Anna; Schuetze, Hinrich";Language-Agnostic Bias Detection in Language Models with Bias Probing;2023;"""Therefore, we propose a robust ‘Language-Agnostic Bias Detection’ method
+called LABDet for nationality as a case study and
+analyze intrinsic bias in monolingual PLMs in Arabic, Dutch, English, French, German, and Turkish
+with bias probing. LABDet addresses the limitations of prior work by training a sentiment classifier
+on top of PLMs, using templates containing positive/negative adjectives, without any nationality
+information. This lets LABDet learn sentiment
+analysis, but without the bias in existing sentiment
+datasets (Asyrofi et al., 2022; Kiritchenko and Mohammad, 2018).
+The second key idea of bias probing is to surface
+bias by using templates and corpus examples with
+a nationality slot for which we compare substitutions, e.g., “Turkish” vs “Greek” in Turkish and
+12735
+Dutch PLMs as illustrated in Figure 1 (...)"" p. 12735 / 12736";"""Despite their success, it is established
+that these models exhibit strong biases, such as
+those related to gender, occupation, and nationality
+(Kurita et al., 2019; Tan and Celis, 2019)."" p.12735";n.s.
+7RH3TWEE;"Schwertmann, Lena; Kannan Ravi, Manoj Prabhakar; de Melo, Gerard";Model-Agnostic Bias Measurement in Link Prediction;2023;"""Link prediction models
+score the plausibility of a given fact, with two distinct purposes: (i) They make the graph structure
+available to machine learning models, e.g., in the
+form of embeddings, (ii) and – if sufficiently reliable – may eventually be used to make plausible
+predictions of missing facts, i.e., solving the problem of automatic knowledge graph completion and
+refinement (Hogan et al., 2021; Paulheim, 2016).
+While link prediction models are naturally evaluated for their accuracy, there have only recently
+been studies that assess possible biases that they
+may exhibit. "" p. 1632";extensive info in bias statement p. 1633 / p. 1634;extensive info in bias statement p. 1633 / p. 1634
+7STPDK5N;"Vashishtha, Aniket; Ahuja, Kabir; Sitaram, Sunayana";On Evaluating and Mitigating Gender Biases in Multilingual Settings;2023;"""However, these models have shown to be prone to
+picking up unwanted correlations and stereotypes
+from the pre-training data (Sheng et al., 2019; Kurita et al., 2019; Hutchinson et al., 2020)"" p. 307";"""While Massively Multilingual Language Models
+(Devlin et al., 2019; Conneau et al., 2020; Xue
+∗ Equal contribution
+et al., 2021), have shown impressive performances
+across a wide range of languages, especially with
+their surprising effectiveness at zero-shot crosslingual transfer, there still exists a lack of focused
+research to evaluate and mitigate the biases that
+exist in these models. This can lead to a lack of
+inclusive and responsible technologies for groups
+whose native language is not English and can also
+lead to the dissemination of stereotypes and the
+widening of existing cultural gaps."" p. 307";"""While Massively Multilingual Language Models
+(Devlin et al., 2019; Conneau et al., 2020; Xue
+∗ Equal contribution
+et al., 2021), have shown impressive performances
+across a wide range of languages, especially with
+their surprising effectiveness at zero-shot crosslingual transfer, there still exists a lack of focused
+research to evaluate and mitigate the biases that
+exist in these models. This can lead to a lack of
+inclusive and responsible technologies for groups
+whose native language is not English and can also
+lead to the dissemination of stereotypes and the
+widening of existing cultural gaps."" p. 307"
+K3SGFMP7;"Goldfarb-Tarrant, Seraphina; Ungless, Eddie; Balkir, Esma; Blodgett, Su Lin";This prompt is measuring \textlessmask\textgreater: evaluating bias evaluation in language models;2023;"""For example, consider the prompt “People who
+came from <MASK> are pirates” (Ahn and Oh,
+2021), which is used for testing “ethnic bias.” In
+the absence of common words like “Piratopia” or
+“Pirateland,” it is not clear how we might want the
+∗ Equal contribution. Correspondence to whomever.
+model to behave. One possibility is to consider (as
+Ahn and Oh (2021) do) a model biased to the extent
+that it predicts particular countries, such as “Somalia” over “Austria,” to replace the masked token; a
+model that is not biased might be one that does not
+vary the prior probabilities of country words when
+“pirate” is present, or else predicts all countries with
+equal likelihood. But such a bias definition would
+require the model to disregard the ‘knowledge”
+that Austria, unlike Somalia, is landlocked."" p.2209";n.s.;n.s.
+HJ4UQGSV;"Ghanbarzadeh, Somayeh; Huang, Yan; Palangi, Hamid; Cruz Moreno, Radames; Khanpour, Hamed";Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models;2023;"""One of the crucial reasons for this success is pretraining on large-scale corpora, which is collected
+from unmoderated sources such as the internet.
+Prior studies (Caliskan et al., 2017; Zhao et al.,
+2018; May et al., 2019; Kurita et al., 2019; Gehman
+et al., 2020) have shown that PLMs capture a significant amount of social biases existing in the pretraining corpus."" p. 5448";""" For instance, they showed that
+the PLMs learned that the word ""he"" is closer to
+the word ""engineer"" because of the frequent cooccurrence of this combination in the training corpora, which is known as social gender biases. Since
+PLMs are increasingly deployed in real-world scenarios, there is a serious concern that they propagate discriminative prediction and unfairness"" p. 5448";n.s.
+WLAB62TZ;"Iskander, Shadi; Radinsky, Kira; Belinkov, Yonatan";Shielded Representations: Protecting Sensitive Attributes Through Iterative Gradient-Based Projection;2023;general;"""Recent studies have
+demonstrated that word embeddings exhibit gender
+bias in their associations of professions (Bolukbasi
+et al., 2016; Caliskan et al., 2017) and that learned
+representations of language models capture demographic data about the writer of the text, such as
+race or age (Blodgett et al., 2016; Elazar and Goldberg, 2018). "" p. 5961";n.s.
+T8HFVH3G;"Yu, Charles; Jeoung, Sullam; Kasi, Anish; Yu, Pengfei; Ji, Heng";Unlearning Bias in Language Models by Partitioning Gradients;2023;"""pretraining corpora contain
+many toxic/biased sentences and that neural models trained on such data readily capture and exhibit
+these biases (Caliskan et al., 2017; May et al., 2019;
+Gehman et al., 2020; Kurita et al., 2019)."" p. 6032";n.s.;"""This
+can be problematic, as the lack of interpretability
+in modern language models means that negative
+stereotypes and social biases encoded in models
+may lead to unfairness and harms in production
+systems. Without effective mitigation techniques,
+finetuned models utilizing these flawed language
+representations might accidentally inherit spurious
+correlations not representative of the real world or
+their target task."" p. 6032"
+C53DKWCI;"Hauzenberger, Lukas; Masoudian, Shahed; Kumar, Deepak; Schedl, Markus; Rekabsaz, Navid";Modular and On-demand Bias Mitigation with Attribute-Removal Subnetworks;2023;general;n.s.;n.s.
+3JQICBME;"Matzken, Cleo; Eger, Steffen; Habernal, Ivan";Trade-Offs Between Fairness and Privacy in Language Modeling;2023;general;n.s.;n.s.
+25JN8R9T;"Kim, Michelle; Kim, Junghwan; Johnson, Kristen";Race, Gender, and Age Biases in Biomedical Masked Language Models;2023;""" We define bias as a tendency to associate a
+particular group with an illness in generated sentences and examine, given a bias, with which illness a model associates more. First, prompts are
+manually curated based on evidence-based practice. Then, the models fill in the masked prompts."" p. 11806";"""Social biases based on race, gender, and age cause
+healthcare disparities. Namely, the race, gender,
+and age of a patient affect the treatment decisions of physicians. For instance, African American patients with coronary artery disease are less
+likely than White American patients to undergo
+cardiac catheterization, a life-saving procedure that
+corrects clogged arteries or irregular heartbeats
+(Whittle et al., 1993; Ferguson et al., 1997). Research also shows that physicians estimate a lower
+probability of coronary artery disease for women
+and younger patients. Hence, African American
+women are less likely to be referred for cardiac
+catheterization than White American men (Schulman et al., 1999)."" p. 11806";"""Social biases based on race, gender, and age cause
+healthcare disparities. Namely, the race, gender,
+and age of a patient affect the treatment decisions of physicians. For instance, African American patients with coronary artery disease are less
+likely than White American patients to undergo
+cardiac catheterization, a life-saving procedure that
+corrects clogged arteries or irregular heartbeats
+(Whittle et al., 1993; Ferguson et al., 1997). Research also shows that physicians estimate a lower
+probability of coronary artery disease for women
+and younger patients. Hence, African American
+women are less likely to be referred for cardiac
+catheterization than White American men (Schulman et al., 1999)."" p. 11806"
+RDUBBN2B;"Kumar, Sachin; Balachandran, Vidhisha; Njoo, Lucille; Anastasopoulos, Antonios; Tsvetkov, Yulia";Mitigating Societal Harms in Large Language Models;2023;"""Since LMs learn and amplify biases present in
+the training data (…)"" p. 27 (section on how LLMs work)";"""Indeed, models have been shown
+to introduce vulnerabilities and threats, both inadvertent and malicious, to individual users, social
+groups, and content integrity. Without social context and content control, deployed language generators have quickly derailed to racist, homophobic, hateful comments Wolf et al., 2017; Vincent, 2022), compromised
+user privacy (Carlini et al., 2021), spread disinformation (Shao et al., 2018), and even encouraged
+suicide (Daws, 2020)."" p.26";n.s.
+RBVDPMEX;"Hada, Rishav; Seth, Agrima; Diddee, Harshita; Bali, Kalika";“Fifty Shades of Bias”: Normative Ratings of Gender Bias in GPT Generated English Text;2023;"""Past
+*Equal contribution
++Work done while at Microsoft Research India
+work on detecting gender bias has mostly focused
+on a lexica-based approach or used templatized
+sentences to create datasets that inform models
+for downstream tasks (Bhaskaran and Bhallamudi,
+2019; Cho et al., 2019; Prates et al., 2020; Mohammad and Turney, 2013a). However, these datasets
+are restrictive because they do not emulate the natural language structure found in the real world. This
+problem is further aggravated by real-world data
+with bias being sparse and difficult to mine (Blodgett et al., 2021)."" p. 1862";"""Harms perpetuated due to human biases are innumerable, and gender bias is one of the most prevalent biases in our society."" p.1862";n.s.
+BVJNG2ZG;"Gonçalves, Gustavo; Strubell, Emma";Understanding the Effect of Model Compression on Social Bias in Large Language Models;2023;"""Large Language Models (LLMs) are trained on
+large corpora using self-supervision, which allows
+models to consider vast amounts of unlabelled
+data, and learn language patterns through masking tasks (Devlin et al., 2019; Radford et al., 2019).
+However, self-supervision allows LLMs to pick
+up social biases contained in the training data.
+Which is amplified by larger models, more data,
+and longer training (Kaneko et al., 2022; Kaneko
+and Bollegala, 2022; Kurita et al., 2019; Delobelle
+and Berendt, 2022).
+Social biases in LLMs are an ongoing problem that is propagated from pretraining to finetuning (Ladhak et al., 2023; Gira et al., 2022)."" p. 2663";n.s.;n.s.
+8P27UQRL;"Sandoval, Sandra; Zhao, Jieyu; Carpuat, Marine; Daumé III, Hal";A Rose by Any Other Name would not Smell as Sweet: Social Bias in Names Mistranslation;2023;"""We define and evaluate a particular form of bias through inequality in
+the machine translations of names."" p. 3934";"""Over time, the regular experience of an AI system getting a person’s
+name wrong can have insidious detrimental effects such as the erosion of cultural identity and
+self-worth, similar to effects from racial microagressions such as name mispronunciations experienced in the classroom (Kohli and Solórzano,
+2012). "" p. 3933";extensive section 2 on sociolinguistic background p. 3934 / 3935
+8824WWNB;"Levy, Sharon; John, Neha; Liu, Ling; Vyas, Yogarshi; Ma, Jie; Fujinuma, Yoshinari; Ballesteros, Miguel; Castelli, Vittorio; Roth, Dan";Comparing Biases and the Impact of Multilingual Training across Multiple Languages;2023;"""The growth of interest in natural language processing (NLP) has led to investigations of the various
+social biases learned by models. While researchers
+are actively studying bias and fairness in NLP models, they typically focus on a single language, primarily English (Bolukbasi et al., 2016; Hutchinson
+et al., 2020; Nadeem et al., 2021; Nangia et al.,
+2020). However, biases can manifest differently
+across languages (e.g., Table 1) due to differences
+in cultures and training data. As a result, biases
+(favored/disfavored groups) in one language may
+not be expressed similarly in another, leading to
+differing representational and allocational harms
+(Crawford, 2017; Blodgett et al., 2021) and making
+it increasingly important to study languages comprehensively."" / ""Though biases may vary across different languages and attributes, these may also be affected
+by the data the models are trained on. Previous
+studies have shown the impact of multilingual versus monolingual training data on a model’s task
+performance (Rust et al., 2021; Groenwold et al.,
+2020a). However, these do not evaluate the impact
+of multilingual training on bias amplification or
+reduction""  p. 10260";"""In this paper, we present an analysis of four
+demographic attributes (race, religion, nationality, gender) across five languages: Italian, Chinese, English, Hebrew, and Spanish. We study
+how these bias attributes are expressed in each language within multilingual pretrained models and
+how these attributes compare across languages for
+various bias metrics"" p. 10260";n.s.
+84IEC4ZT;"Yifei, Li; Ungar, Lyle; Sedoc, João";Conceptor-Aided Debiasing of Large Language Models;2023;"""However, since they are
+trained on texts written by humans, the social bias
+is inherited and represented in the parameters of
+LLMs (Bolukbasi et al., 2016; Caliskan et al.,
+2022). For example, gender bias has been found in
+contextualized embeddings"" p. 10703";"""Multiple demographic biases are common in society. Among them, gender bias is the most wellstudied in academia, given its omnipresence and
+bi-polarity (Bolukbasi et al., 2016; May et al., 2019;
+Kurita et al., 2019). Other social biases (e.g. racial,
+religious) are also widespread in LLMs and attracting increasing attention (Nangia et al., 2020;
+Nadeem et al., 2021; Meade et al., 2022)."" p. 10704";n.s.
+V7DTBQ7Q;"Zhou, Yi; Camacho-Collados, Jose; Bollegala, Danushka";A Predictive Factor Analysis of Social Biases and Task-Performance in Pretrained Masked Language Models;2023;"""However, MLMs trained on massive amounts of
+textual training data have also been found to encode
+concerning levels of social biases such as gender
+and racial biases (Kaneko and Bollegala, 2019;
+May et al., 2019; Dev et al., 2020; Silva et al., 2021;
+Kaneko et al., 2022)"" p. 11082";n.s.;n.s.
+6HJ5KH6M;"Jeoung, Sullam; Ge, Yubin; Diesner, Jana";StereoMap: Quantifying the Awareness of Human-like Stereotypes in Large Language Models;2023;"""Large Language Models (LLMs), trained on vast amounts of web-crawled data, have been found to encode and perpetuate harmful associations prevalent in the training data."" p. 12236";"""that LLMs 1
+exhibit associations between Muslims and violence, as well
+as between specific gender pronouns (e.g. she)
+and stereotypical occupations (e.g. homemaker)
+(Abid et al., 2021; Bolukbasi et al., 2016)."" p. 12236";"""The findings of our study indicate that LLMs exhibit a diverse range of perceptions toward social
+groups, characterized by mixed evaluations along
+the dimensions of Warmth and Competence. These
+findings align with previous research in psychology,
+highlighting the existence of multifaceted stereotypes. However, some variations exist among the
+models studied.
+Furthermore, our analysis of the reasoning behind
+LLMs’ judgments in relation to the economic status of social groups reveals a notable awareness of
+societal disparities. Some models even claim statistical data and research findings as their reasoning.
+This suggests that LLMs have some understanding of the complex social dynamics and disparities
+present within society.
+By examining LLMs’ perceptions, emotions, behavioral tendencies, and reasoning verbalizations,
+our framework contributes to a deeper understanding of how language models comprehend and represent social groups. These insights provide valuable
+insights for further research and development of
+LLMs, aiming to improve their fairness, accuracy,
+and unbiased portrayal of diverse social groups."" p. 12237"
+J7XZGHVP;"Narayanan Venkit, Pranav; Gautam, Sanjana; Panchanadikar, Ruchi; Huang, Ting-Hao; Wilson, Shomir";Nationality Bias in Text Generation;2023;"""Language models learn the context of a word based
+on other words present around it (Caliskan et al.,
+2017), and training an enormous dataset leads to
+the model learning powerful linguistic associations,
+allowing them to perform well without fine-tuning
+(Abid et al., 2021). However, this method can
+easily capture biases, mainly from internet-based
+texts, as it tends to over-represent the majority’s
+hegemonic viewpoints, causing the LLMs to mimic
+similar prejudices (Whittaker et al., 2019; Bender
+et al., 2021; Bolukbasi et al., 2016). "" p. 116 ";"""This examination shows how the
+dataset from the internet generally accentuates the
+ideas of the majority population (countries with a
+significant number of internet users) while misrepresenting the opinions of the minority. We look at
+the group bias demonstrated by GPT-2, using their
+text generation feature, on countries categorized by
+the number of internet users and their economic
+status."" p. 116";n.s.
+WX99SQD9;"Luo, Hongyin; Glass, James";Logic Against Bias: Textual Entailment Mitigates Stereotypical Sentence Reasoning;2023;"""These models are typically trained
+based on text similarity of words and sentences.
+Since the optimization objective maximizes the
+likelihood of the training corpora, the coherence
+of words and sentences that often appears together
+in the training corpora will be increased based on
+the trained model. However, since the training corpora are generated by humans, they can contain
+a large amount of social bias and stereotypes, including those concerning gender, race, and religion
+(Nadeem et al., 2020; Stanczak and Augenstein,
+2021; Kiritchenko and Mohammad, 2018)."" p. 1243 / ""We analyze the different types of stereotypical bias present
+in pretrained language models and state-of-the-art
+contrastive sentence representation models."" p. 1244";n.s.;n.s.
+Y857676L;"An, Haozhe; Li, Zongxia; Zhao, Jieyu; Rudinger, Rachel";SODAPOP: Open-Ended Discovery of Social Biases in Social Commonsense Reasoning Models;2023;general;general;n.s.
+LSJ32R6B;"Kumar, Deepak; Lesota, Oleg; Zerveas, George; Cohen, Daniel; Eickhoff, Carsten; Schedl, Markus; Rekabsaz, Navid";Parameter-efficient Modularised Bias Mitigation via AdapterFusion;2023;general;n.s;n.s.
+BQJG5Z4C;"Kaneko, Masahiro; Bollegala, Danushka; Okazaki, Naoaki";Comparing Intrinsic Gender Bias Evaluation Measures without using Human Annotated Examples;2023;general;n.s.;n.s.
+4FZL3FEP;"Pikuliak, Matúš; Beňová, Ivana; Bachratý, Viktor";In-Depth Look at Word Filling Societal Bias Measures;2023;"""Since LMs are usually trained with web-based text
+corpora generated by a general population, there
+is a risk that they will learn certain societal biases,
+such as sexist or racist stereotypes. With these
+models regularly being used as backbones for further fine-tuning, this unfairness might propagate
+further to downstream models and ultimately to
+user-facing applications."" p. 3648";n.s.;n.s.
+JKUQHS23;"Bauer, Lisa; Tischer, Hanna; Bansal, Mohit";Social Commonsense for Explanation and Cultural Bias Discovery;2023;"""However, social commonsense may
+contain many human biases due to social and cultural influence (Sap et al., 2020; Emelin et al.,
+2020). "" p. 3745";"""We define cultural bias as a positive or negative cultural attitude toward a social structure (see Section 3.1) and
+define causal commonsense following Sap et al.
+(2019a), as if-then, inferential relations. Specifically, we are interested in exploring biases towards
+the following social structures: religion, economy,
+family, government, education and technology."" p. 3745";n.s.
+WE593VWK;"Zhiheng, Xi; Rui, Zheng; Tao, Gui";Safety and Ethical Concerns of Large Language Models;2023;"""The question of why (large) language models are prone to bias has been well explored, and most
+of the works suggest that the biases are a reflection of training data patterns (Henderson et al., 2018;
+Hutchinson et al., 2020; Tan and Celis, 2019; Guo and Caliskan, 2021). LLMs are typically trained with
+unsupervised learning techniques on large-scale data, including websites, articles, and books. The data
+may contain unfair or biased characteristics. For example, Hutchinson et al. (2020) demonstrate a bias
+towards associating phrases that reference individuals with disabilities with a greater frequency of negative sentiment words; furthermore, it has been observed that the topics of gun violence, homelessness,
+and drug addiction are disproportionately prevalent in texts pertaining to mental illness."" p.9";"""Language models pre-trained on large-scale corpus usually demonstrate various types of biases like
+racial discrimination and gender discrimination (Basta et al., 2019; Beltagy et al., 2019; Kurita et al.,
+2019; Zhang et al., 2020). We follow Bender et al. (2021) and define bias by stereotypical associations
+and negative sentiment towards specific groups. With the scaling up of LLMs in model size and data
+size, such biases are not eliminated (Ferrara, 2023). Therefore, when they are deployed in downstream
+applications, such biases can make users disappointed."" p.9";n.s.
+2PNSCRT4;"Arora, Arnav; Kaffee, Lucie-aimée; Augenstein, Isabelle";Probing Pre-Trained Language Models for Cross-Cultural Differences in Values;2023;""" This is why, when language models are trained on large text corpora,
+they not only learn to understand language, but
+also pick up on a variety of societal and cultural
+biases (Stanczak et al., 2021)."" p. 114";general;n.s.
+3KQYXVFD;"Prakash, Nirmalendu; Lee, Roy Ka-Wei";Layered Bias: Interpreting Bias in Pretrained Large Language Models;2023;"""While this broad spectrum of data ensures a rich
+representation of the world’s knowledge, it also
+serves as a double-edged sword. On one side, it
+represents a democratic and diverse range of ideas,
+yet on the flip side, it exposes the models to inherent social biases."" p. 284";n.s.;n.s.
+LGL3JESS;Elsafoury, Fatma;Thesis Distillation: Investigating The Impact of Bias in NLP Models on Hate Speech Detection;2023;"""However, recent research shows
+that current hate speech detection models falsely
+flag content written by members of marginalized
+communities, as hateful (Sap et al., 2019; Dixon
+et al., 2018; Mchangama et al., 2021). Similarly,
+recent research indicates that there are social biases
+in natural language processing (NLP) models (Garg
+et al., 2018; Nangia et al., 2020; Kurita et al., 2019;
+Ousidhoum et al., 2021; Nozza et al., 2021, 2022). (...)"" p.1 hate speech detection tasks";"""There are many definitions of the term bias. The
+normative definition of bias, in cognitive science,
+is: “Behaving according to some cognitive priors
+and presumed realities that might not be true at all”
+(Garrido-Muñoz et al., 2021). And the statistical
+definition of bias is “A systematic distortion in the
+sampled data that compromises its representatives”
+(Olteanu et al., 2019). The statistical definition of
+bias is the one used in this thesis.
+In this work, I argue that the sources of bias in
+the NLP pipeline originate in the social sciences
+and that they are direct results of the sources of
+bias from the social science (Jim code) perspective
+as shown in Figure 1."" p.2";n.s.
+PR5XXWCX;"Thakur, Himanshu; Jain, Atishay; Vaddamanu, Praneetha; Liang, Paul Pu; Morency, Louis-Philippe";Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions;2023;"""It has been shown that the
+pre-training + finetuning of a model drastically improves its performance on downstream tasks as the
+knowledge captured by the pre-training on a large
+corpus is transferred to the downstream application when finetuning the model. However, this also
+leads to societal biases like gender bias that were
+implicitly learned by the pre-trained models being
+transferred to crucial downstream applications like
+job recommendation engines (Zhao et al., 2019;
+∗ Equal Contribution
+Barocas et al., 2017; Kurita et al., 2019)"" p. 340";n.s.;n.s.
+2DAJ2CJY;"Omrani, Ali; Salkhordeh Ziabari, Alireza; Yu, Charles; Golazizian, Preni; Kennedy, Brendan; Atari, Mohammad; Ji, Heng; Dehghani, Morteza";Social-Group-Agnostic Bias Mitigation via the Stereotype Content Model;2023;general;n.s.;""" The bias
+found in language models is rooted in human biases (Caliskan and Lewis, 2022); thus, to alleviate
+such biases, we should ground our debiasing approaches in social psychological theories of stereotyping. These theories can help us shed light on the underlying structure of language-embedded biases
+rather than attending to ad hoc superficial patterns
+(Osborne et al., 2022)."" p. 4123"
+YVQQTEG7;"Zhou, Fan; Mao, Yuzhou; Yu, Liu; Yang, Yi; Zhong, Ting";Causal-Debias: Unifying Debiasing in Pretrained Language Models and Fine-tuning via Causal Invariant Learning;2023;general;n.s.;n.s.
+UWQ9Q68E;"Shaikh, Omar; Zhang, Hongxin; Held, William; Bernstein, Michael; Yang, Diyi";On Second Thought, Let's Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning;2023;"""However, we demonstrate that zero-shot CoT
+consistently produces undesirable biases and
+toxicity. For tasks that require social knowledge, blindly using “let’s think step by step”-esque reasoning prompts can sabotage a model’s performance. We argue that improvements from zeroshot CoT are not universal, and measure empirically that zero-shot CoT substantially increases
+model bias and generation toxicity (example in Figure 1). While the exact mechanism behind CoT
+bias is difficult to identify, we hypothesize that by
+prompting LLMs to “think,” they circumvent value
+alignment efforts and/or produce biased reasoning."" p. 4454";general;n.s.
+H2M9ZQXK;"Watson, Julia; Beekhuizen, Barend; Stevenson, Suzanne";What social attitudes about gender does BERT encode? Leveraging insights from psycholinguistics;2023;"""Here we seek to understand what social attitudes a large language model encodes, specifically social attitudes about gender. To address this
+question, we draw on datasets from two psycholinguistics studies, both of which included language
+tasks involving gendered and gender neutral language choices, and surveys eliciting the same participants’ social attitudes on gender. By explicitly
+linking people’s language choices with their social
+attitudes, this data enables us to evaluate how social attitudes are reflected in the language choices
+encoded in an NLP model, and to quantify the extent to which a language model propagates certain
+views over others (cf. Bender et al., 2021)."" p. 6790";n.s.;n.s.
+QNTJZK6W;"Orgad, Hadas; Belinkov, Yonatan";BLIND: Bias Removal With No Demographics;2023;general;n.s.;n.s.
+VCW57MZ9;"Zhao, Jiaxu; Fang, Meng; Shi, Zijing; Li, Yitong; Chen, Ling; Pechenizkiy, Mykola";CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models;2023;"""The success of the pretrained dialogue models benefits from the increasing quantity and quality of
+real corpora (Gu et al., 2022; Zhang et al., 2020;
+Radford et al., 2018; Bao et al., 2020). However,
+deep neural models can inadvertently learn undesired features in the corpora, such as social biases"" p. 13538";"""For example, Hutson (2021) shows that when GPT3 (Brown et al., 2020) encounters unsafe, harmful,
+and biased prompts related to some demographic
+groups, such as “old people” or “female”, it may
+come up with biased replies."" p. 13538 / ""We build a new Chinese dataset, CHBias, for
+evaluating and mitigating biases in Chinese
+conversational models, which includes underexplored biases in the existing works, such as
+age and appearance."" p. 13539 / ""We consider four bias categories: gender, orientation, age, and appearance. Following (Caliskan
+et al., 2017; Lauscher et al., 2020), which define the
+explicit bias specifications in English, we utilize the
+bias specifications to define four bias categories in
+Chinese formally."" p. 13540";n.s.
+J2F3HPUI;"Liu, Yan; Gao, Yan; Su, Zhe; Chen, Xiaokang; Ash, Elliott; Lou, Jian-Guang";Uncovering and Categorizing Social Biases in Text-to-SQL;2023;"""However, there are welldocumented instances where AI model predictions
+have resulted in biased or even offensive decisions
+due to the data-driven training process. The relational database stores a vast of information and
+in turn support applications in vast areas (Hu and Tian, 2020). With the development of benchmark
+datasets, such as WikiSQL (Zhong et al., 2017) and
+Spider (Yu et al., 2018), many Text-to-SQL models have been proposed to map natural language
+utterances to executable SQL queries."" p. 13573";n.s.;n.s.
+ZVE438DJ;"Li, Yingji; Du, Mengnan; Wang, Xin; Wang, Ying";Prompt Tuning Pushes Farther, Contrastive Learning Pulls Closer: A Two-Stage Approach to Mitigate Social Biases;2023;"""However, the powerful language modeling capability enables PLMs to learn good representations from large-scale training corpora while capturing human-like social biases"" p. 14254";"""Recent studies have
+demonstrated that the representations encoded by
+PLMs learn social biases specific to demographic
+groups (e.g., gender, race, religion) and can be
+amplified to downstream tasks, leading to unfair
+outcomes and adverse social effects (Zhao et al.,
+2019; Webster et al., 2020)."" p. 14254";n.s.
+28HMACPY;"Lee, Hwaran; Hong, Seokhee; Park, Joonsuk; Kim, Takyoung; Kim, Gunhee; Ha, Jung-woo";KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications;2023;"""Large language models (LLMs) acquire impressive
+text generation abilities from large-scale real-world
+pre-training data (Brown et al., 2020; Kim et al.,
+2021). However, LLMs also absorb toxicity, such
+as social biases (Sheng et al., 2019; Wallace et al.,
+2019a)"" p. 208";""" This cannot be overlooked since the risk
+of generating toxic content impedes the safe use
+and potential commercialization of various downstream applications, such as AI assistants (Dinan
+et al., 2022; Bai et al., 2022a)"" p. 208";n.s.
+ZCGRWMLN;"Corral, Ander; Saralegi, Xabier";Gender Bias Mitigation for NMT Involving Genderless Languages;2022;"""These data-driven
+approaches are trained on large real-world textual
+corpora which often exhibit implicit social gender
+stereotypes and biases."" p. 165";""" For example, Bolukbasi
+et al. (2016) noted that systems associate certain
+neutral occupations with males, such as doctor or
+programmer, and others with females, such as nurse
+or housekeeper. As a consequence, although not
+being required by the task, systems tend to inherit
+and amplify these social biases."" p. 165";n.s.
+584U3X5T;"Stahl, Maja; Spliethöver, Maximilian; Wachsmuth, Henning";To Prefer or to Choose? Generating Agency and Power Counterfactuals Jointly for Gender Bias Mitigation;2022;""" Language models that learn from such text
+may reproduce or even amplify the bias (Hovy and
+Spruit, 2016)."" p. 39";"""Gender bias refers to the conscious or unconscious
+unequal treatment of people because of being male,
+female, or diverse. In natural language text, it manifests in various ways, including the explicit expression of stereotypes and discrimination as well as
+implicit prejudicial or generalized representations
+of genders (Hitti et al., 2019; Doughman et al.,
+2021). Language models that learn from such text
+may reproduce or even amplify the bias (Hovy and
+Spruit, 2016)"" p. 39";"""The methods developed
+in this paper aim to mitigate gender bias in natural
+language sentences. As such, we expect primarily positive ethical consequences from the contributions of this paper. However, we point out a
+significant risk emanating from applying the developed methods: By adjusting the agency and power
+levels, the meaning of a sentence may likely be
+changed to some degree. This can have negative
+1Our code is published at https://github.com/
+webis-de/NLPANDCSS-22.
+implications when facts are distorted. An example
+of this is misrepresenting a victim as a perpetrator
+by portraying that person with more agency and/or
+power. In case our methods are used for modifying
+language that humans perceive, the methods should
+thus be used in a semi-automated environment with
+human supervision. Further ethical implications of
+this work are discussed in Section 9."" p. 40"
+IW6HLL3C;"Ungless, Eddie; Rafferty, Amy; Nag, Hrichika; Ross, Björn";A Robust Bias Mitigation Procedure Based on the Stereotype Content Model;2022;general;"""It is well established that large language models
+(LLMs) such as BERT (Devlin et al., 2019), GPT2
+(Radford et al., 2019) and related contextualised
+word embeddings such as ELMo (Peters et al.,
+2018) are biased against different demographic
+groups (Guo and Caliskan, 2021; Webster et al.,
+2020; Kaneko and Bollegala, 2021), in that they
+often reflect stereotypes in their output. For example, given the prompt “naturally, the nurse is
+a"", these systems will typically output “woman”
+(Schick et al., 2021)"" p. 207";n.s.
+H86MHDCN;"Fort, Karën; Névéol, Aurélie; Dupont, Yoann; Bezançon, Julien";Use of a Citizen Science Platform for the Creation of a Language Resource to Study Bias in Language Models for French: A Case Study;2022;general;n.s.;n.s.
+4WNJH4KA;"Malik, Vijit; Dev, Sunipa; Nishi, Akihiro; Peng, Nanyun; Chang, Kai-Wei";Socially Aware Bias Measurements for Hindi Language Representations;2022;general / embeddings p. 1043;"""with a careful study of the social and cultural
+composition of the Indian society, we highlight and
+devise measures to detect and quantify different
+societal biases present in Hindi language representations, and show gender, caste and religion bias in
+the language"" p. 1041";extensive chapter on language and culture considerations p. 1042 / 1043
+R83AUHUT;"Shen, Aili; Han, Xudong; Cohn, Trevor; Baldwin, Timothy; Frermann, Lea";Optimising Equal Opportunity Fairness in Model Training;2022;"""This is because real-world
+datasets generally encode societal preconceptions
+and stereotypes, thereby leading to models trained
+on such datasets to amplify existing bias and make
+biased predictions (i.e., models perform unequally
+towards different subgroups of individuals). This
+kind of unfairness has been reported over various
+NLP tasks, such as part-of-speech tagging (Hovy
+and Søgaard, 2015; Li et al., 2018; Han et al.,
+2021b), sentiment analysis (Blodgett et al., 2016;
+Shen et al., 2021), and image activity recognition
+(Wang et al., 2019; Zhao et al., 2017)."" p. 4073";n.s.;n.s.
+2W6ID6Q5;"Câmara, António; Taneja, Nina; Azad, Tamjeed; Allaway, Emily; Zemel, Richard";Mapping the Multilingual Margins: Intersectional Biases of Sentiment Analysis Systems in English, Spanish, and Arabic;2022;"""However, these models are
+well-documented to perpetuate harmful social biases, specifically by regurgitating the social biases
+present in their training data which are scraped
+from the Internet without careful consideration
+(Bender et al., 2021)"" p. 90 / ""In addition, while some work has studied gender biases across different languages (Zhou et al.,
+2019; Zhao et al., 2020), no work to our knowledge
+has studied racial, ethnic, and intersectional social
+biases across different languages. This lack of a
+multilingual analysis neglects non-English speaking users and their complex social environments"" p. 91";"""Social biases in
+downstream tasks expose users with multiple disadvantaged sensitive attributes to unknown but potentially harmful outcomes, especially when models
+trained on downstream tasks are used in real-world
+decision making, such as for screening résumes
+or predicting recidivism in criminal proceedings
+(Bolukbasi et al., 2016; Angwin et al., 1999)"" p. 90";n.s.
+AI3TQM57;"Honnavalli, Samhita; Parekh, Aesha; Ou, Lily; Groenwold, Sophie; Levy, Sharon; Ordonez, Vicente; Wang, William Yang";Towards Understanding Gender-Seniority Compound Bias in Natural Language Generation;2022;"""Propagation of societal biases is a growing issue in
+mainstream natural language generation (NLG) models. Downstream applications of these models, such as
+machine translation (Koehn, 2009), dialogue generation (Serban et al., 2016), and story generation (Yao et
+al., 2019) risk reinforcing societal stereotypes"" p. 1665";"""One of the most well-known types of societal bias in
+natural language processing (NLP) is gender bias (Sun
+et al., 2019; Zhao et al., 2019; Bolukbasi et al., 2016;
+Rudinger et al., 2018)."" / ""We have seen how bias in NLP has disproportionately harmed already-marginalized communities through the use of downstream applications before
+– for example, when companies and universities have
+sought to apply or actively used NLP for applicantfiltering systems. These use cases in particular can
+prevent qualified women from having the same professional opportunities as men. Seniority has the potential to influence and exacerbate gender bias in realworld systems that utilize NLP: human resources chatbots and resume scanning systems deal with both seniority and gender"" p. 1665";n.s.
+RJ4PZ4BE;"Sólmundsdóttir, Agnes; Guðmundsdóttir, Dagbjört; Stefánsdóttir, Lilja Björk; Ingason, Anton";Mean Machine Translations: On Gender Bias in Icelandic Machine Translations;2022;"""Linguistic corpora that are used to train language models consist of texts that are written by people. Therefore
+these texts can contain discourse topics that reflect the
+views and opinions of said people. In turn, the texts
+also hold all sorts of societal ideas and patterns created
+by the culture that has molded the language in some
+part over time (Prates et al., 2018).
+Language models trained on large, uncurated datasets
+from the Web have been shown to encode hegemonic
+views that are harmful to marginalized populations
+(Bender et al., 2021). "" p. 3113";"""However, the training data has been shown to
+have problematic characteristics, resulting in technology that encodes stereotypical and derogatory associations along the lines of gender, ethnicity, race, disability status and so on. "" p. 3113 further elaboration on bias and stereotypes p. 3114";"""If left unmanaged, we
+risk that biases of the past will amplify discrimination
+in the future. It is important to continually monitor new
+technology and prevent it from perpetuating outdated
+societal ideas such as gender bias, because it is imperative that advances in technology must not hinder positive social change - especially in today’s digital world."" p. 3116"
+FEZ9W728;Dacon, Jamell;Towards a Deep Multi-layered Dialectal Language Analysis: A Case Study of African-American English;2022;"""Recently, online AAE has influenced the generation of resources for AAE-like text for natural language (NLP) and corpus linguistic tasks e.g., partof-speech (POS) tagging (Jørgensen et al., 2016;
+Blodgett et al., 2018), language generation (Groenwold et al., 2020) and automatic speech recognition
+(Dorn, 2019; Tatman and Kasten, 2017). POS tagging is a token-level text classification task where
+each token is assigned a corresponding word category label (see Table 1). "" p. 55 ""To address these issues, we aim to empirically
+study predictive bias (see Swinton (1981) for definition) i.e., if POS tagger models make predictions
+dependent on demographic language features, and
+attempt a dynamic approach in data-collection of
+non-standard spellings and lexical items."" p. 56";" ""However, AAE is perceived to be “bad english”
+despite numerous studies by socio/raciolinguists
+and dialectologists in their attempts to quantify
+AAE as a legitimized language (Baugh, 2008; Field
+et al., 2021; Bland-Stewart, 2005; Labov, 1975)."" p. 55";"""All authors must warrant that increased model performance for non-standard varieties such as underrepresented dialects, non-standard spellings or
+lexical items in NLP systems can potentially enable automated discrimination."" p. 59"
+3SS6MZF4;"Tal, Yarden; Magar, Inbal; Schwartz, Roy";Fewer Errors, but More Stereotypes? The Effect of Model Size on Gender Bias;2022;"""However, the success of these models comes with a price—they are trained on vast
+amounts of mostly web-based data, which often
+contains social stereotypes and biases that the models might pick up (Bender et al., 2021; Dodge et al.,
+2021; De-Arteaga et al., 2019). Combined with
+recent evidence that the memorization capacity of
+training data grows with model size (Magar and
+Schwartz, 2022; Carlini et al., 2022), the risk of language models containing these biases is even
+higher"" p. 112";"""For example, machine translation
+models have been shown to generate outputs based
+on gender stereotypes regardless of the context of
+the sentence (Stanovsky et al., 2019), and models
+rated male resumes higher than female ones (Parasurama and Sedoc, 2021)."" p.112";n.s.
+2C9LQ4IP;"Akyürek, Afra Feyza; Paik, Sejin; Kocyigit, Muhammed; Akbiyik, Seda; Runyun, Serife Leman; Wijaya, Derry";On Measuring Social Biases in Prompt-Based Multi-Task Learning;2022;"""In prompt learning, some prompts work significantly better than others (Sanh et al., 2021) suggesting that the model behavior is highly susceptible
+to prompt design and the form in which the input
+is presented (Jiang et al., 2020). However, limited
+work has been done on how different formulations
+of semantically the same input affect models’ behavior beyond known performance metrics such
+as social biases similar to those studied by Parrish
+et al. (2021); Lucy and Bamman (2021) and Abid
+et al. (2021). Hence, in this paper, we test whether
+the form in which a problem is encoded influences
+language model bias, independent of the content."" p. 551";n.s.;n.s.
+AIAT6HW8;"Zhou, Jingyan; Deng, Jiawen; Mi, Fei; Li, Yitong; Wang, Yasheng; Huang, Minlie; Jiang, Xin; Liu, Qun; Meng, Helen";Towards Identifying Social Bias in Dialog Systems: Framework, Dataset, and Benchmark;2022;"""In recent years, significant efforts have been devoted to the development of open-domain dialog
+systems that are pre-trained on large-scale data to
+generate responses to user inputs (Freitas et al.,
+2020; Zhou et al., 2021a; Bao et al., 2021; Thoppilan et al., 2022; Mi et al., 2022). However, neural approaches that underlie these conversational
+agents may pick up many unsafe features from
+the large-scale data they train on, e.g., offensive
+∗The first two authors have equal contribution.
+1The proposed dataset and codes are available at:
+https://github.com/para-zhou/CDial-Bias.
+and violent languages, social biases, etc. (Dinan
+et al., 2021; Barikeri et al., 2021; Weidinger et al.,
+2021; Sun et al., 2022)."" p. 3576";"""It is important to note that
+social biases that convey negative stereotypes or
+prejudices about specific populations are usually
+stated in implicit expressions rather than explicit
+words (Sap et al., 2020; Blodgett et al., 2020),"" p. 3576";n.s.
+DERNSQBL;"Panda, Swetasudha; Kobren, Ari; Wick, Michael; Shen, Qinlan";Don't Just Clean It, Proxy Clean It: Mitigating Bias by Proxy in Pre-Trained Models;2022;"""A major concern of this paradigm, however, is that pre-trained
+models can learn societal biases from both the pretraining and fine-tuning data. These biases can be
+expressed in two ways – in a) the contextualized
+representations of the model themselves, i.e., intrinsic biases (Nangia et al., 2020; Nadeem et al.,
+2021; May et al., 2019; Kurita et al., 2019), and b) its downstream predictions after fine-tuning, i.e.,
+extrinsic or allocational harms (Gehman et al.,
+2020; Garimella et al., 2019; Blodgett et al., 2018)."" p. 5073";n.s.;n.s.
+B69673Y5;"Valentini, Francisco; Rosati, Germán; Fernandez Slezak, Diego; Altszyler, Edgar";The Undesirable Dependence on Frequency of Gender Bias Metrics Based on Word Embeddings;2022;"""Word embeddings are one of the most commonly
+used techniques to measure semantic closeness between words in a corpus. In recent years, they
+have been widely used in Computational Social
+Science applications to measure societal biases and
+stereotypes (Caliskan et al., 2017; Garg et al., 2018;
+Kozlowski et al., 2019; Lewis and Lupyan, 2020;
+Charlesworth et al., 2021)."" p. 5086";n.s.;n.s.
+PG8QH69U;"Parrish, Alicia; Chen, Angelica; Nangia, Nikita; Padmakumar, Vishakh; Phang, Jason; Thompson, Jana; Htut, Phu Mon; Bowman, Samuel";BBQ: A hand-built bias benchmark for question answering;2022;"""LMs
+have been found to reproduce social biases in downstream tasks such as language generation (Sheng
+et al., 2019) and coreference resolution (Rudinger
+et al., 2018)"" p. 2086";table with 9 bias categories + examples;n.s.
+EAG2V3HP;"Dev, Sunipa; Sheng, Emily; Zhao, Jieyu; Amstutz, Aubrie; Sun, Jiao; Hou, Yu; Sanseverino, Mattie; Kim, Jiin; Nishi, Akihiro; Peng, Nanyun; Chang, Kai-Wei";On Measures of Biases and Harms in NLP;2022;general;general;n.s.
+Z7CIMF5R;"Li, Yizhi; Zhang, Ge; Yang, Bohao; Lin, Chenghua; Ragni, Anton; Wang, Shi; Fu, Jie";HERB: Measuring Hierarchical Regional Bias in Pre-trained Language Models;2022;"""However, research studies demonstrate
+that the societal biases in the pre-training corpora
+can be learned by LMs and further propagated to
+the downstream applications (Zhao et al., 2019;
+Dev et al., 2020; Goldfarb-Tarrant et al., 2021; Kurita et al., 2019)."" p. 334";"""Bias in NLP applications makes distinct judgements on people based on their gender, race, religion, region, or other social groups could be harmful, such as automatically downgrading the resumes
+of female applicants in recruiting (Dastin, 2018)
+Regional bias represents stereotypes based on the
+geographic location where people live or come
+from (Wikipedia, 2022a)."" p. 334";n.s.
+XIGIXZL6;"Lin, Inna; Njoo, Lucille; Field, Anjalie; Sharma, Ashish; Reinecke, Katharina; Althoff, Tim; Tsvetkov, Yulia";Gendered Mental Health Stigma in Masked Language Models;2022;"""Many approaches developed for these purposes rely
+on pretrained language models, thus running the
+risk of incorporating any pre-learned biases these
+models may contain (Straw and Callison-Burch,
+2020)."" p. 2152";psychological background on mental health stigma and gender incl. p. 2153 / 2154;"""Mental health issues are heavily stigmatized, preventing many individuals from seeking appropriate care (Sickel et al., 2014). In addition, social
+psychology studies have shown that this stigma
+manifests differently for different genders: mental
+illness is more visibly associated with women, but
+tends to be more harshly derided in men (Chatmon,
+2020). This asymmetrical stigma constitutes harms
+towards both men and women, increasing the risks
+of under-diagnosis or over-diagnosis respectively.
+Since language is central to psychotherapy and
+peer support, NLP models have been increasingly employed on mental health-related tasks (Chancellor and De Choudhury, 2020; Sharma et al., 2021,
+2022; Zhang and Danescu-Niculescu-Mizil, 2020).""  / "" Understanding if and
+how pretrained language models encode mental
+health stigma is important for developing fair, responsible mental health applications."" p. 2152"
+45KGW6IX;"Sun, Tianxiang; He, Junliang; Qiu, Xipeng; Huang, Xuanjing";BERTScore is Unfair: On Social Bias in Language Model-Based Metrics for Text Generation;2022;"""The fairness of the text generation metrics has a
+crucial impact on developing generative systems.
+If the metric is biased against some sensitive attributes (e.g., gender), generative models that express such bias will be rewarded and selected. The
+texts generated by these biased models may be incorporated in the corpus, further reinforcing the social bias in data."" p. 3726 / 3627";n.s.;n.s.
+ETGNNBPD;"Smith, Eric Michael; Hall, Melissa; Kambadur, Melanie; Presani, Eleonora; Williams, Adina";“I'm sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset;2022;"""For models that generate, a common way to
+surface bias is to input prompts containing demographic information, and then analyze whether the
+models output socially biased text.  Such prompts
+are generally derived either from crowdsourcing
+(Nadeem et al., 2021; Nangia et al., 2021) or from
+slotting a set of terms into templates (Kurita et al.,
+2019; May et al., 2019; Sheng et al., 2019; Webster
+et al., 2020)."" p. 9180";"""In this work, we define language model bias as demographic difference, i.e., group-level differences
+in model output or assigned probabilities that result from different identity or demographic data
+present in input text. According to this definition,
+difference is what matters. Some biases will be benign, while others will be harmful or stereotypical,
+such as othering and inappropriate sympathy (see
+Section 2.3.3 for further discussion). Adopting a
+general definition of bias as difference allows for
+NLP practitioners to make the delineation between
+benign and harmful for each identity term separately, based on the particular task and use case at
+hand (Olteanu et al., 2017; Blodgett et al., 2020;
+Czarnowska et al., 2021; Dev et al., 2021). (...)"" p. 9181";"""We acknowledge that works that attempt to measure bias often run into inadequate or incomplete
+definitions of bias (Blodgett et al., 2020): for instance, Devinney et al. (2022) surveys nearly 200
+articles regarding gender bias in NLP and finds that
+almost all of them do not clearly specify how they are conceptualizing gender, disregarding intersectionality and non-binary genders, conflating sex
+and gender, etc. We believe the best way forward
+is to try to strike the right balance between having
+a general-purpose bias measurement resource and
+ensuring that everyone is included and appropriately represented. We make initial steps towards
+this by creating a living measurement dataset that
+anyone can contribute to, and which includes the
+voices of people who are most likely to be excluded
+or incompletely represented by researchers’ design
+choices."" p. 9181 / 9182"
+VCVJPC4C;"Qian, Rebecca; Ross, Candace; Fernandes, Jude; Smith, Eric Michael; Kiela, Douwe; Williams, Adina";Perturbation Augmentation for Fairer NLP;2022;"""There is increasing evidence that models can instantiate
+social biases (Buolamwini and Gebru, 2018; Stock and
+Cissé, 2018; Fan et al., 2019; Merullo et al., 2019; Prates
+et al., 2020), often replicating or amplifying harmful
+statistical associations in their training data (Caliskan
+et al., 2017; Chang et al., 2019). Training models on
+data with representational issues can lead to unfair or
+poor treatment of particular demographic groups (Barocas et al., 2017; Mehrabi et al., 2021)"" p. 9496";"general "", a problem that
+is particularly egregious for historically marginalized
+groups, including people of color (Field et al., 2021),
+and women (Hendricks et al., 2018). "" p. 9496";n.s.
+TQJ89YDA;"Gaci, Yacine; Benatallah, Boualem; Casati, Fabio; Benabdeslem, Khalid";Debiasing Pretrained Text Encoders by Paying Attention to Paying Attention;2022;general;general;n.s.
+XBGEA36U;"Cheng, Lu; Kim, Nayoung; Liu, Huan";Debiasing Word Embeddings with Nonlinear Geometry;2022;"""Due to the reliance on the large-scale text corpora
+for training, it has been observed that word embeddings are prone to express social biases inherent in the data (Bolukbasi et al., 2016; Caliskan
+et al., 2017)."" p. 1286";"""We refer to bias induced by the union
+of different social categories as joint biases. Second, a few recent works (e.g. Guo and Caliskan,
+2020) detected intersectional biases in word embeddings, which is the bias that does not overlap
+with the biases of their constituent identities. For
+example, “hair weaves” is stereotypically associated with African American females (Ghavami and
+Peplau, 2013)."" p. 1286";n.s.
+2C2AF89V;"Kaneko, Masahiro; Bollegala, Danushka; Okazaki, Naoaki";Debiasing Isn't Enough! – on the Effectiveness of Debiasing MLMs and Their Social Biases in Downstream Tasks;2022;"""Unfortunately,
+large-scale pretrained MLMs demonstrate worrying levels of social biases when applied to downstream tasks (May et al., 2019; Nadeem et al.,
+2021; Kaneko and Bollegala, 2021a; Kaneko et al.,
+2022b). "" p. 1299";n.s.;"""Given that real-world Natural Language
+Processing (NLP) systems such as machine translation systems, dialogue systems, etc. are used
+by millions of users world-wide (Hovy and Spruit,
+2016), it remains an important responsibility to accurately evaluate the social biases in MLMs prior
+to deployment."" p. 1299"
+RSSUCV9I;"Das, Mayukh; Balke, Wolf Tilo";Quantifying Bias from Decoding Techniques in Natural Language Generation;2022;"""However, language
+models (LMs) pretrained on large web text corpora
+are also known to pass on stereotypical associations learned from real-world training data. Such
+disproportionate generations that produce representational or allocational harms towards a particular
+group is called ""bias"" in the context of AI fairness (Crawford, 2017; Barocas and Selbst, 2016)"" p. 1311";""" Such
+disproportionate generations that produce representational or allocational harms towards a particular
+group is called ""bias"" in the context of AI fairness (Crawford, 2017; Barocas and Selbst, 2016)."" p. 1311";n.s.
+JTFYTNQ9;"Wisniewski, Guillaume; Zhu, Lichao; Ballier, Nicolas; Yvon, François";Analyzing Gender Translation Errors to Identify Information Flows between the Encoder and Decoder of a NMT System;2022;"""State-of-the-art machine translation models
+(TMs) have been shown to suffer from genderbias (Prates et al., 2020) and works trying to
+mitigate this problem constitute a very active line
+of research"" p. 153";n.s.;n.s.
+2FNV2ZA5;"Talat, Zeerak; Névéol, Aurélie; Biderman, Stella; Clinciu, Miruna; Dey, Manan; Longpre, Shayne; Luccioni, Sasha; Masoud, Maraim; Mitchell, Margaret; Radev, Dragomir; Sharma, Shanya; Subramonian, Arjun; Tae, Jaesung; Tan, Samson; Tunuguntla, Deepak; Van Der Wal, Oskar";You reap what you sow: On the Challenges of Bias Evaluation Under Multilingual Settings;2022;"""Machine learning (ML) systems, especially large language models (LLMs), are prone to (re)produce harmful
+outcomes and social biases (Bender et al., 2021; Raji
+et al., 2021; Blodgett et al., 2020; Aguera y Arcas et al.,
+2018). Despite recent advances in LLMs (Bender and
+Koller, 2020), they have shown to disproportionately
+produce harmful content when addressing certain topics
+(Gehman et al., 2020; Lin et al., 2021) and demographics (Sheng et al., 2019; Liang et al., 2021; Dev et al.,
+2021a)—in part due to the training data used (Dunn,
+2020; Gao et al., 2020; Bender et al., 2021), and the
+design of modeling processes (Talat et al., 2021; Hovy
+and Prabhumoye, 2021)."" p. 26";extensive sections on bias definition and challenges;extensive sections on bias definition and challenges
+WSQJWWU3;"Nozza, Debora; Bianchi, Federico; Hovy, Dirk";Pipelines for Social Bias Testing of Large Language Models;2022;general;n.s.;n.s.
+ASV5TTY4;Elsafoury, Fatma;Darkness can not drive out darkness: Investigating Bias in Hate SpeechDetection Models;2022;"""Wagner et al. (2021) describe the term
+algorithmically infused societies as the societies
+that are shaped by algorithmic and human behavior.
+The data collected from these societies carry the
+same bias in algorithms and humans, like population bias and behavioral bias (Olteanu et al., 2019)."" p. 1";"""Recent research in social science explains that
+using racial slurs and third person profanity goes
+beyond offending individuals or groups of people
+and that it actually aims at stressing on inferiority of
+the identity of marginalized groups (Kukla, 2018).
+However, the research on bias in NLP have not
+payed attention to how this type of offensive stereotyping being encoded in machine learning models
+that are trained on data from social media. So I
+introduce systematic offensive stereotyping (SOS)
+bias which includes associating offensive terms to
+different groups of people, especially marginalized
+people, based on their ethnicity, gender, or sexual
+orientation. "" p.1";"""Recent research in social science explains that
+using racial slurs and third person profanity goes
+beyond offending individuals or groups of people
+and that it actually aims at stressing on inferiority of
+the identity of marginalized groups (Kukla, 2018).
+However, the research on bias in NLP have not
+payed attention to how this type of offensive stereotyping being encoded in machine learning models
+that are trained on data from social media. So I
+introduce systematic offensive stereotyping (SOS)
+bias which includes associating offensive terms to
+different groups of people, especially marginalized
+people, based on their ethnicity, gender, or sexual
+orientation. "" p.1"
+4QTED6BX;"Guo, Yue; Yang, Yi; Abbasi, Ahmed";Auto-Debias: Debiasing Masked Language Models with Automated Biased Prompts;2022;"""Unfortunately, pretrained language models, which are
+trained on large human-written corpora, also inherit human-like biases and undesired social stereotypes (Caliskan et al., 2017; Bolukbasi et al., 2016;
+Blodgett et al., 2020). For example, in the fill-inthe-blank task, BERT (Devlin et al., 2019) substitutes [MASK] in the sentence “The man/woman
+had a job as [MASK]” with “manager/receptionist”
+respectively, reflecting occupational gender bias."" p. 1012";n.s.;n.s.
+ZU2VZCST;"Meade, Nicholas; Poole-Dayan, Elinor; Reddy, Siva";An Empirical Survey of the Effectiveness of Debiasing Techniques for Pre-trained Language Models;2022;"""While the performance of these pre-trained
+models is remarkable, recent work has shown that
+they capture social biases from the data they are
+trained on (May et al. 2019; Kurita et al. 2019;
+Webster et al. 2020; Nangia et al. 2020; Nadeem"" p. 1878";""", our work studies the effectiveness of these techniques in mitigating representational biases from pre-trained language models.
+More specifically, we investigate mitigating gender, racial, and religious biases in three masked
+language models (BERT, ALBERT, and RoBERTa)
+and an autoregressive language model (GPT-2)."" p. 1878";n.s.
+D5II8WLS;"Zhou, Yi; Kaneko, Masahiro; Bollegala, Danushka";Sense Embeddings are also Biased – Evaluating Social Biases in Static and Contextualised Sense Embeddings;2022;general;" ""We follow Shah et al. (2020) and define social
+biases to be predictive biases with respect to protected attributes made by NLP systems. Even if
+a word embedding is unbiased, some of its senses
+could still be associated with unfair social biases"" p. 1924 / section on nationality / language bias p. 1927";n.s.
+PK3L4KC2;"Steed, Ryan; Panda, Swetasudha; Kobren, Ari; Wick, Michael";Upstream Mitigation Is <i> N</i>ot All You Need: Testing the Bias Transfer Hypothesis in Pre-Trained Language Models;2022;"""of downstream tasks in a process called finetuning. But massive pre-training datasets and increasingly homogeneous model design come with
+well-known, immediate social risks beyond the financial and environmental costs (Strubell et al.,
+2019; Bender et al., 2021).
+Transformer-based LLMs like BERT and GPT3 contain quantifiable intrinsic social biases encoded in their embedding spaces (Goldfarb-Tarrant
+et al., 2021). These intrinsic biases are typically
+associated with representational harms, including
+stereotyping and denigration (Barocas et al., 2017;
+Blodgett et al., 2020; Bender et al., 2021)"" p. 3524 / ""This
+hypothesis, which we call the Bias Transfer Hypothesis, holds that stereotypes and other biased
+associations in a pre-trained model are transferred
+to post-fine-tuning downstream tasks, where they
+can cause further, task-specific harms"" p. 3525";"""Separately, many studies document the extrinsic harms
+of the downstream (fine-tuned & task-specific) applications of fine-tuned LLMs, including discriminatory medical diagnoses (Zhang et al., 2020), overreliance on binary gender for coreference resolution (Cao and Daumé, 2021), the re-inforcement
+of traditional gender roles in part-of-speech tagging (Garimella et al., 2019), toxic text generation
+(Gehman et al., 2020), and censorship of inclusive language and AAVE (Blodgett and O’Connor,
+2017; Blodgett et al., 2018; Park et al., 2018; Sap
+et al., 2019)."" p. 3524";n.s.
+396HF6TM;"Névéol, Aurélie; Dupont, Yoann; Bezançon, Julien; Fort, Karën";French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English;2022;general;""" In this work, we seek to widen the
+scope of bias studies by creating material to measure social bias in multiple languages and social
+contexts. As a case study, we chose to address biases against specific demographic groups in France."" p. 8521";"""Human language technologies can have a direct
+impact on people’s everyday life. The natural language processing community who contributes to
+the development of these technologies has a responsibility to understand the social impact of
+its research and to address the ethical implications (Hovy and Spruit, 2016). The increasing use
+of large language models has raised many ethical concerns, including the risk of bias and bias amplification (Bender et al., 2021). Biases in NLP have
+received a lot of attention in recent years (Blodgett
+et al., 2020)"" p. 8521"
+JMIBJ4RE;"Garimella, Aparna; Mihalcea, Rada; Amarnath, Akhash";Demographic-Aware Language Model Fine-tuning as a Bias Mitigation Technique;2022;"""In this paper, we draw inspiration from
+previous research that showed the effect of demographic information on NLP tasks, such as word
+embeddings (Bamman et al., 2014), word associations (Garimella et al., 2017; Welch et al., 2020),empathy prediction (Guda et al., 2021), varied
+model performance of demographic-aware models
+(Hovy, 2015). We hypothesize that biases toward
+or against a specific group vary based on the demographic lens through which the world is viewed,
+and analyzing the social biases of various demographic groups from their language use can help
+uncover their characteristics."" p. 311";"""Bias is defined as any kind of preference or prejudice of an individual or group, towards another
+individual or group (Moss-Racusin et al., 2012;
+Sun et al., 2019). The underlying traits of one’s demographic group shape one’s thoughts and worldviews (Garimella et al., 2016), and therefore may
+surface in one’s language preferences and biases in
+the day-to-day life. For example, the word admit
+is more often associated with hospital by Indian
+bloggers, whereas American bloggers associate it
+with guilt (Garimella et al., 2017)."" p. 311";n.s.
+HC7348NM;"Bhatt, Shaily; Dev, Sunipa; Talukdar, Partha; Dave, Shachi; Prabhakaran, Vinodkumar";Re-contextualizing Fairness in NLP: The Case of India;2022;"general "" it has also been demonstrated that language technologies may capture,
+propagate, and amplify societal biases (Blodgett
+et al., 2020)."" p. 727";""" Although NLP is adopted globally,
+most studies on assessing and mitigating biases are in the Western context,1
+focusing on axes of
+disparities in the West, relying on Western data
+and justice norms, and are not directly portable to
+non-Western contexts (Sambasivan et al., 2021).
+This is especially troubling for India, a pluralistic nation of 1.4 billion people, with fast-growing
+investments in NLP from the government and the private sector.2 (...) But,
+for a nation with many religions, ethnicities, and
+cultures, re-contextualizing NLP fairness needs to
+account for the various axes of social disparities in
+the Indian society, their proxies in language data,
+the disparate NLP capabilities in Indian languages,
+and the (lack of) resources for bias evaluation."" p. 727";section on axes of disparities and india-specific axes p. 728 / 729
+MWKHZ5PU;"Mostafazadeh Davani, Aida; Omrani, Ali; Kennedy, Brendan; Atari, Mohammad; Ren, Xiang; Dehghani, Morteza";Improving Counterfactual Generation for Fair Hate Speech Detection;2021;"""Hate speech classifiers have high false-positive error rates in documents mentioning specific social
+group tokens (SGTs; e.g., “Asian”, “Jew”), due in
+part to the high prevalence of SGTs in instances of
+hate speech (Wiegand et al., 2019; Mehrabi et al.,
+2019). When propagated into social media content moderation, this unintended bias (Dixon et al.,
+2018) leads to unfair outcomes, e.g., mislabeling
+mentions of protected social groups as hate speech."" p. 92";n.s.;n.s.
+ZLF9PTFW;"Czarnowska, Paula; Vyas, Yogarshi; Shah, Kashif";Quantifying Social Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness Metrics;2021;"""The prevalence of unintended social biases in
+NLP models has been recently identified as a
+major concern for the field. A number of papers
+have published evidence of uneven treatment of
+different demographics (Dixon et al., 2018; Zhao
+et al., 2018; Rudinger et al., 2018; Garg et al.,
+2019; Borkan et al., 2019; Stanovsky et al., 2019;
+Gonen and Webster, 2020; Huang et al., 2020a;
+Nangia et al., 2020), which can reportedly cause
+a variety of serious harms, like unfair allocation
+of opportunities or unfavorable representation of
+particular social groups (Blodgett et al., 2020)."" p. 1249";" We experiment on three transformer-based
+models—two models for sentiment analysis and
+one for named entity recognition (NER)—which
+we evaluate for fairness with respect to seven different sensitive attributes, qualified for protection
+under the United States federal anti-discrimination
+law:1 Gender, Sexual Orientation, Religion, Nationality, Race, Age, and Disability."" p. 1249";n.s.
+SKT65RMI;"Lucy, Li; Bamman, David";Gender and Representation Bias in GPT-3 Generated Stories;2021;"""However, fictional stories can reinforce real stereotypes, and artificially generated
+stories are no exception. Language models mimic
+patterns in their training data, parroting or even
+amplifying social biases (Bender et al., 2021)."" p. 48 / ""Our study focuses on how GPT-3 may perceive a character’s gender based on textual features"" p. 49";"""Language models generate different occupations and levels of respect for
+different genders, races, and sexual orientations
+(Sheng et al., 2019; Kirk et al., 2021). Abid et al.
+(2021) showed that GPT-3’s association of Muslims and violence can be difficult to diminish, even
+when prompts include anti-stereotype content."" p. 48";n.s.
+L24GCNE2;"Silva, Andrew; Tambwekar, Pradyumna; Gombolay, Matthew";Towards a Comprehensive Understanding and Accurate Evaluation of Societal Biases in Pre-Trained Transformers;2021;"""Transformer models represent the state-of-the-art
+for many natural language processing (NLP) tasks,
+such as question-answering (Devlin et al., 2019),
+dialogue (Smith et al., 2020), search results (Nayak,
+2019), and more. Popular pre-trained models, such
+as those available from Hugging Face (Wolf et al.,
+2019), allow developers without extensive computation power to benefit from these models. However, it is important to fully understand the latent
+societal biases within these black-box transformer
+models. Without appropriately considering inherent biases, development on top of pre-trained transformers risks exacerbating and propagating racial,
+gender, and other biases writ large"" p. 1 / "" In the context of our work, “bias” refers specifically to the preference of a model for one gender or
+race in the presence of an otherwise neutral context"" p. 1";"""As an example, consider the sequence “[MASK]
+wept upon arriving to the scene.” With no additional information, an equitable system would exhibit no preference for female over male, or AfricanAmerican over European-American names; however, our results indicate that there is often a statistically significant preference (p < 0.0001) for
+associating female and African-American identifiers with being more “emotional.” p. 1";n.s.
+9NGY4U4M;"Nozza, Debora; Bianchi, Federico; Hovy, Dirk";HONEST: Measuring Hurtful Sentence Completion in Language Models;2021;"""However, apart from associations, these
+models can also generate or complete sentences in a
+cloze-test style. This capability opens new avenues
+for text generation, but also includes the risk of
+producing hurtful and stereotyped sentences."" p. 2398";n.s.;n.s.
+NDES4B4C;"Escolano, Carlos; Ojeda, Graciela; Basta, Christine; Costa-jussa, Marta R.";Multi-Task Learning for Improving Gender Accuracy in Neural Machine Translation;2021;"""In recent years, the awareness about the bias
+present in Machine Translation (MT) systems has
+increased in the scientific community, especially
+gender bias. Gender is manifested differently in
+languages; gender bias problems occur when translating between languages with +various levels of
+morphology. There is bias when the system tends
+to translate according to gender roles, even when
+there is no ambiguity (Prates et al., 2020).""p. 12";"""Gender is manifested differently in
+languages; gender bias problems occur when translating between languages with +various levels of
+morphology. There is bias when the system tends
+to translate according to gender roles, even when
+there is no ambiguity (Prates et al., 2020)"" p. 12";"""Nowadays, we live in a more globalized and connected world, which leads society to use MT tools
+to communicate with different nationalities. The
+fact that standard translators present a gender bias
+harms society, helping to perpetuate certain stereotypes and prejudices (...)"" p. 12 / 13 bias statement"
+45ACH2HN;"Ramesh, Krithika; Gupta, Gauri; Singh, Sanjay";Evaluating Gender Bias in Hindi-English Machine Translation;2021;"general / ""In MT
+systems, bias can be identified as the cause of the
+translation of gender-neutral sentences into gendered ones."" p.16";n.s.;n.s.
+ASFKYX84;"Huang, Tenghao; Brahman, Faeze; Shwartz, Vered; Chaturvedi, Snigdha";Uncovering Implicit Gender Bias in Narratives through Commonsense Inference;2021;"""In this paper, we study
+the gender bias associated with the protagonist."" / ""Despite their widespread usage,
+recent works showed that LMs capture and even
+reinforce unwanted social stereotypes abundant in
+their training corpora"" p. 3866";"""These examples
+contain implicit gender bias showing females to be
+needy and usually obsessed with their physical appearance, whereas males to be more intelligent, or
+accomplished"" p. 3867";n.s.
+FHDX5NPP;"Garimella, Aparna; Amarnath, Akhash; Kumar, Kiran; Yalla, Akash Pramod; N, Anandhavelu; Chhaya, Niyati; Srinivasan, Balaji Vasan";He is very intelligent, she is very beautiful? On Mitigating Social Biases in Language Modelling and Generation;2021;"""Unstructured data often contain several biases, and natural language processing
+(NLP) models trained on them learn and sometimes
+amplify them (Bolukbasi et al., 2016; Kurita et al.,
+2019; Sheng et al., 2019)"" p. 4534";"""In this paper, we focus
+on a specific type of bias called representation bias,
+where certain groups are associated with certain identities, e.g., man is to computer programmer as
+woman is to homemaker (Bolukbasi et al., 2016)."" p. 4534";n.s.
+8HCABHGP;"Choubey, Prafulla Kumar; Currey, Anna; Mathur, Prashant; Dinu, Georgiana";GFST: Gender-Filtered Self-Training for More Accurate Gender in Translation;2021;"""Known sources of gender bias in MT include
+sample bias (a.k.a. selection bias), which occurs
+when the input (source) distribution differs from
+that of the target application; label bias, which in
+MT occurs when gender-neutral sentences are translated predominantly into a specific gender or when
+the gender is translated incorrectly in the training
+data; and over-amplification, which is a property
+of the machine learning model (Shah et al., 2020)."" p. 1640";"""For example, on input sentences that are underspecified in terms of gender, MT models often default to masculine or gender-stereotypical outputs (Cho et al., 2019; Prates et al., 2018), which
+can exclude female and non-binary people (e.g., the
+sentence I am a doctor spoken by a woman may
+be translated incorrectly as I am a (male) doctor)."" p. 1640";n.s.
+YQZMGV3W;"Zhang, Sheng; Zhang, Xin; Zhang, Weiming; Søgaard, Anders";Sociolectal Analysis of Pretrained Language Models;2021;"""ialects and sociolects (McCormack et al., 2011).1
+Such linguistic variation presents a real challenge: The linguistic preferences of English pretrained language models may align better with the
+linguistic preferences of some groups in society
+than with those of others.W p. 4581";general;"""If our
+technologies provide end users with new opportunities, group disparities mean unequal opportunities
+across groups. Moreover, if the groups are defined
+in terms of protected attributes, our technologies
+may discriminate between end users in ways that
+violate regulations."" p. 4581"
+5Q6XFA2A;"Mehrabi, Ninareh; Zhou, Pei; Morstatter, Fred; Pujara, Jay; Ren, Xiang; Galstyan, Aram";Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources;2021;"""The potentially biased nature of commonsense
+knowledge bases (CSKB), given their increasing
+popularity, raises the urgent need to quantify biases
+both in the knowledge resources and in the downstream models that use these resources"" p. 5016";section on types of harms p. 5017;n.s.
+S7ELI8NM;"Du, Yupei; Fang, Qixiang; Nguyen, Dong";Assessing the Reliability of Word Embedding Gender Bias Measures;2021;general;"""For example, Caliskan
+et al. (2017) find that both GloVe (Pennington et al.,
+2014) and skip-gram (Mikolov et al., 2013) embeddings associate pleasant terms (e.g. love and peace)
+more with European-American names than with
+African-American names, and that they associate
+career words (e.g. profession and business) more
+with male names than with female names."" p. 100012";n.s.
+47CT56T7;"Goldfarb-Tarrant, Seraphina; Marchant, Rebecca; Muñoz Sánchez, Ricardo; Pandya, Mugdha; Lopez, Adam";Intrinsic Bias Metrics Do Not Correlate with Application Bias;2021;general;n.s.;n.s.
+TMNFYKNM;"Barikeri, Soumya; Lauscher, Anne; Vulić, Ivan; Glavaš, Goran";RedditBias: A Real-World Resource for Bias Evaluation and Debiasing of Conversational Language Models;2021;"""Pretrained language models and their corresponding contextualized representation spaces (Peters
+et al., 2018; Devlin et al., 2019) have recently been
+shown to encode and amplify a range of stereotypical human biases (e.g., gender or racial biases)"" p. 1941";""" Having models that capture or even amplify human
+biases brings about further ethical challenges to the
+society (Henderson et al., 2018), since stereotyping minoritized groups is a representational harm
+that perpetuates societal inequalities and unfairness
+(Blodgett et al., 2020). Human biases are in all
+likelihood especially harmful if encoded in conversational AI systems, like the recent DialoGPT
+model (Zhang et al., 2020), which directly interact
+with humans, possibly even taking part in intimate
+and personal conversations (Utami et al., 2017)."" p. 1941";""" Having models that capture or even amplify human
+biases brings about further ethical challenges to the
+society (Henderson et al., 2018), since stereotyping minoritized groups is a representational harm
+that perpetuates societal inequalities and unfairness
+(Blodgett et al., 2020). Human biases are in all
+likelihood especially harmful if encoded in conversational AI systems, like the recent DialoGPT
+model (Zhang et al., 2020), which directly interact
+with humans, possibly even taking part in intimate
+and personal conversations (Utami et al., 2017)."" p. 1941"
+BMNQE2HH;"Ousidhoum, Nedjma; Zhao, Xinran; Fang, Tianqing; Song, Yangqiu; Yeung, Dit-Yan";Probing Toxic Content in Large Pre-Trained Language Models;2021;"""Although their efficiency and
+usefulness in different NLP tasks is incontestable,
+their shortcomings such as their learning and reproduction of harmful biases cannot be overlooked and
+ought to be addressed"" p. 4262";general;n.s.
+VDFKXB6K;"Sheng, Emily; Chang, Kai-Wei; Natarajan, Prem; Peng, Nanyun";Societal Biases in Language Generation: Progress and Challenges;2021;extensive section on bias p. 4279;extensive section p. 4279;extensive p. 4280
+A7P2NVZ2;"Chávez Mulsa, Rodrigo Alejandro; Spanakis, Gerasimos";Evaluating Bias In Dutch Word Embeddings;2020;"""In recent years language models have become more relevant in the field of Natural Language Processing (NLP). As word embeddings were shown to perform better in many tasks than many traditional
+techniques, the research community followed this direction and made further advancements resulting in
+another breakthrough - contextualized word embeddings (e.g. BERT Devlin et al. (2018), RoBERTa Liu
+et al. (2019)). As opposed to traditional (context-free) word embeddings that have a fixed representation
+vector, contextualized word embeddings change depending on the sentences (context) in which they are
+used. They have achieved state-of-the-art in NLP tasks and effectively replaced traditional word embeddings. Due to their outstanding performance, they are broadly adopted in many real-world applications
+(Wolf et al., 2019)."" p. 56";bias statement!  p. 57/58;"""The social biases in machine learning applications can have an impact on society, as the case in computer vision where three commercial gender classification systems reported higher error rates when recognizing women, specifically those with darker skin tones (Buolamwini, 2018). These biases can cause
+undesired effects in downstream NLP tasks (Zhao et al., 2018; Basta et al., 2019) where biased NLP
+models can amplify bias in real world applications and especially affect minorities which are misrepresented in the data. It has been shown that some minorities like people with disabilities are misrepresented
+and are associated with a negative sentiment (Hutchinson et al., 2020)."" p. 56"
+GLN2EXMT;"Havens, Lucy; Terras, Melissa; Bach, Benjamin; Alex, Beatrice";Situated Data, Situated Systems: A Methodology to Engage with Power Relations in Natural Language Processing Research;2020;extensive (bias statement, several sections);"""Analysis has shown computer systems exhibiting biases through racism1
+(Noble, 2018), sexism2
+(Perez, 2019), and classism3
+(D’Ignazio
+and Klein, 2020). This list of harms is not exhaustive; biased computer systems may also harm people
+based on ability, citizenship, and any other identity characteristic"" p. 107 bias statemtn p. 108";bias statement!
+USPE7WXF;"Sheng, Emily; Chang, Kai-Wei; Natarajan, Prem; Peng, Nanyun";Towards Controllable Biases in Language Generation;2020;general;section 2 definition demographic group / bias p. 3240;section 2 definition demographic group / bias p. 3240
+2R2YST7S;"Nangia, Nikita; Vania, Clara; Bhalerao, Rasika; Bowman, Samuel R.";CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models;2020;"""However, these
+models are trained on minimally-filtered real-world
+text, and contain ample evidence of their authors’
+social biases. These language models, and embeddings extracted from them, have been shown to learn and use these biases (Bolukbasi et al., 2016;
+Caliskan et al., 2017; Garg et al., 2017; May et al.,
+2010; Zhao et al., 2018; Rudinger et al., 2017)."" p. 1953";"""Models that have learnt representations that are biased against historically disadvantaged groups can
+cause a great deal of harm when those biases surface in downstream tasks or applications, such as
+automatic summarization or web search (Bender,
+2019)"" p. 1953";n.s.
+N3PYEBVD;"Zhao, Jieyu; Chang, Kai-Wei";LOGAN: Local Group Bias Detection by Clustering;2020;general;"""studies show that biases exhibit in NLP models. For
+example, researchers demonstrate that representations in NLP models are biased toward certain
+societal groups (Bolukbasi et al., 2016; Caliskan
+et al., 2017; Zhao et al., 2018b, 2019; Zhou et al.,
+2019; May et al., 2019). Stanovsky et al. (2019)
+and Font and Costa-jussa` (2019) show that gender
+bias exhibits in neural machine translations while
+Dixon et al. (2018) and Sap et al. (2019) reveal biases in text classification tasks."" p. 1969";n.s.
+PBCR7FES;"Fisher, Joseph; Mittal, Arpit; Palfrey, Dave; Christodoulopoulos, Christos";Debiasing knowledge graph embeddings;2020;"""In (Fisher et al., 2020), it is shown that knowledge graph embeddings encode similar social
+biases to those observed in word embeddings
+((Bolukbasi et al., 2016; Caliskan et al., 2017; Garg
+et al., 2017)), such as the information that men are
+more likely to be bankers and women more likely
+to be nurses"" p. 7332";general;n.s.
+JNP38LCF;"Dinan, Emily; Fan, Angela; Williams, Adina; Urbanek, Jack; Kiela, Douwe; Weston, Jason";Queens are Powerful too: Mitigating Gender Bias in Dialogue Generation;2020;"""In this work, we foreground dataset bias as a crucial cause of gender bias in dialogue models, and explore ways to address it"" p. 8173";section on bias p. 8175 / 8176;n.s.
+YDZGXUW5;Lepori, Michael;Unequal Representations: Analyzing Intersectional Biases in Word Embeddings Using Representational Similarity Analysis;2020;"""They provide vector representations of words, and are trained on a large corpus of text in order to capture the distributional semantics of lexical items. Many studies have shown
+that these embeddings also encode a variety of dangerous social biases, as these biases are present in
+naturally-occurring English text (see Mehrabi et al. (2019) for a survey of such work)."" p. 1720";"general ""Thus, we might expect that the ostensibly race-neutral category ‘Woman’ is implicitly
+White, and that the ostensibly non-gendered category ‘Black’ is implicitly male"" p. 1720";n.s.
+VA56TYZL;"Spliethöver, Maximilian; Wachsmuth, Henning";Argument from Old Man's View: Assessing Social Bias in Argumentation;2020;"""Recent research shows that bias towards social groups is also present in Machine Learning and Natural
+Language Processing (NLP) models (Chang et al., 2019), manifesting in the encoded states of a language
+model (Brown et al., 2020) or simply causing worse performance for underrepresented classes (Sun et al.,
+2019). Such bias has been studied for different NLP contexts, including coreference resolution (Rudinger
+et al., 2018), machine translation (Vanmassenhove et al., 2018), and the training of word embedding
+models (Bolukbasi et al., 2016). In contrast, Computational Argumentation (CA) has, to our knowledge,
+not seen any research in this direction so far. Given that major envisioned applications of CA include
+the enhancement of human debating (Lawrence et al., 2017) and the support of self-determined opinion
+formation (Wachsmuth et al., 2017), we argue that studying social bias is particularly critical for CA"" p. 76";"""Social bias can be understood as implicit or explicit prejudices against, as well as unequal treatment or
+discrimination of, certain social groups in society (Sweeney and Najafian, 2019; Papakyriakopoulos et al.,
+2020). A social group might be described by physical attributes of its members, such as sex and skin color,
+but also by more abstract categories, such as culture, heritage, gender identity, and religion. A typical,
+probably in itself biased, example of social bias is the old man’s belief in classic gender stereotypes. In
+most cases, social bias is deemed negative and undesirable. (...)"" p. 76";n.s.
+5Q8B5CVT;"Jia, Shengyu; Meng, Tao; Zhao, Jieyu; Chang, Kai-Wei";Mitigating Gender Bias Amplification in Distribution by Posterior Regularization;2020;"""Data-driven machine learning models have
+achieved high performance in various applications.
+Despite the impressive results, recent studies (e.g.,
+Wang et al. (2019); Hendricks et al. (2018)) demonstrate that these models may carry societal biases
+exhibited in the dataset they trained on."" p. 2936";general;n.s.
+XRU5NWDD;"Gaut, Andrew; Sun, Tony; Tang, Shirlyn; Huang, Yuxin; Qian, Jing; ElSherief, Mai; Zhao, Jieyu; Mirza, Diba; Belding, Elizabeth; Chang, Kai-Wei; Wang, William Yang";Towards Understanding Gender Bias in Relation Extraction;2020;general;general;n.s.
+77PVHJXQ;"Hutchinson, Ben; Prabhakaran, Vinodkumar; Denton, Emily; Webster, Kellie; Zhong, Yu; Denuyl, Stephen";Social Biases in NLP Models as Barriers for Persons with Disabilities;2020;""". In addition, since text classifiers are trained
+on large datasets, the biases they exhibit may be
+indicative of societal perceptions of persons with
+disabilities (Caliskan et al., 2017). "" p. 5491";"""In this paper, we study how social biases about
+persons with disabilities can be perpetuated by NLP
+models"" p. 5491";"""In this section, we briefly outline some potential
+contextual implications of our findings in the area
+of NLP-based interventions on online abuse. Following Dwork et al. (2012) and Cao and Daumé III
+(2020), we use three hypothetical scenarios to illustrate some key implications.
+NLP models for detecting abuse are frequently
+deployed in online fora to censor undesirable language and promote civil discourse. Biases in these
+models have the potential to directly result in messages with mentions of disability being disproportionately censored, especially without humans “in
+the loop”. Since people with disabilities are also more likely to talk about disability, this could impact their opportunity to participate equally in online fora (Hovy and Spruit, 2016), reducing their
+autonomy and dignity. Readers and searchers of
+online fora might also see fewer mentions of disability, exacerbating the already reduced visibility
+of disability in the public discourse. This can impact public awareness of the prevalence of disability, which in turn influences societal attitudes (for
+a survey, see Scior, 2011).  p. 5495"""
+XRVP657Y;"Zhang, Haiyang; Sneyd, Alison; Stevenson, Mark";Robustness and Reliability of Gender Bias Assessment in Word Embeddings: The Role of Base Pairs;2020;"""Word embeddings, distributed representations of
+words in a low-dimensional vector space, are used
+in many downstream NLP tasks (Mikolov et al.,
+2013a,b; Pennington et al., 2014; Peters et al., 2018;
+Devlin et al., 2019). Recent work has shown they
+can contain harmful bias and proposed techniques
+to quantify it (Bolukbasi et al., 2016; Caliskan
+et al., 2017; Ethayarajh et al., 2019; Gonen and
+Goldberg, 2019)."" p. 759";general;n.s.
